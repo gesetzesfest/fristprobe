@@ -1,0 +1,32 @@
+{
+ "1-dm-goldm_nzg": {
+  "titel": "Gesetz über die Ausprägung einer 1-DM-Goldmünze und die Errichtung der Stiftung \"Geld und Währung\"",
+  "url": "https://www.gesetze-im-internet.de/1-dm-goldm_nzg/xml.zip",
+  "etag": "\"e73-6512836103488\"",
+  "bytes": 3699,
+  "dateien": [
+   "BJNR204500000.xml"
+  ],
+  "geladen": "2026-10-14T21:19:25+00:00"
+ },
+ "wdneuog": {
+  "titel": "Gesetz zur Neuordnung des Wehrdisziplinarrechts",
+  "url": "https://www.gesetze-im-internet.de/wdneuog/xml.zip",
+  "etag": "\"45c-651281c829abf\"",
+  "bytes": 1116,
+  "dateien": [
+   "BJNR014819972.xml"
+  ],
+  "geladen": "2026-10-14T22:20:36+00:00"
+ },
+ "eurhgausnahmv": {
+  "titel": "Verordnung über Ausnahmen hinsichtlich des Inverkehrbringens und der Verfütterung von bestimmten Erzeugnissen mit Pestizidrückständen",
+  "url": "https://www.gesetze-im-internet.de/eurhgausnahmv/xml.zip",
+  "etag": "\"72d-651281264e1a2\"",
+  "bytes": 1837,
+  "dateien": [
+   "BJNR604100010.xml"
+  ],
+  "geladen": "2026-10-14T21:36:45+00:00"
+ }
+}

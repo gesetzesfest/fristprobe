@@ -1,0 +1,206 @@
+{
+ "stand": "2026-10-20",
+ "code": "3c20093",
+ "rangliste": [
+  {
+   "id": "qwen3:8b+rechner-v3",
+   "name": "Qwen3 8B",
+   "orakel": false,
+   "bester": true,
+   "k": 49,
+   "n": 50,
+   "wilson": [
+    0.895,
+    0.996
+   ],
+   "p": null,
+   "falsch": 0,
+   "erfunden": 0.0,
+   "tokens": 16.2
+  },
+  {
+   "id": "qwen3.5:9b+rechner-v3",
+   "name": "Qwen3.5 9B",
+   "orakel": false,
+   "bester": false,
+   "k": 47,
+   "n": 50,
+   "wilson": [
+    0.838,
+    0.979
+   ],
+   "p": 0.625,
+   "falsch": 0,
+   "erfunden": 0.0,
+   "tokens": 6.1
+  },
+  {
+   "id": "gemma3:4b+rechner-v3",
+   "name": "Gemma 3 4B",
+   "orakel": false,
+   "bester": false,
+   "k": 44,
+   "n": 50,
+   "wilson": [
+    0.762,
+    0.944
+   ],
+   "p": 0.125,
+   "falsch": 10,
+   "erfunden": 0.0,
+   "tokens": 30.6
+  },
+  {
+   "id": "qwen3:4b+rechner-v3",
+   "name": "Qwen3 4B",
+   "orakel": false,
+   "bester": false,
+   "k": 42,
+   "n": 50,
+   "wilson": [
+    0.715,
+    0.917
+   ],
+   "p": 0.0156,
+   "falsch": 4,
+   "erfunden": 0.0,
+   "tokens": 28.3
+  },
+  {
+   "id": "qwen3:8b+rechner",
+   "name": "Qwen3 8B (ältere Kette v2)",
+   "orakel": false,
+   "bester": false,
+   "k": 38,
+   "n": 50,
+   "wilson": [
+    0.626,
+    0.857
+   ],
+   "p": 0.001,
+   "falsch": 1,
+   "erfunden": 0.0,
+   "tokens": 18.0
+  },
+  {
+   "id": "gemma4:e4b-it-qat+rechner-v3",
+   "name": "Gemma 4 E4B",
+   "orakel": false,
+   "bester": false,
+   "k": 37,
+   "n": 50,
+   "wilson": [
+    0.604,
+    0.841
+   ],
+   "p": 0.0018,
+   "falsch": 0,
+   "erfunden": 0.0,
+   "tokens": 33.6
+  },
+  {
+   "id": "orakel+rechner-v3",
+   "name": "Obergrenze: fehlerfreies Auslesen",
+   "orakel": true,
+   "bester": false,
+   "k": 50,
+   "n": 50,
+   "wilson": [
+    0.929,
+    1.0
+   ],
+   "p": 1.0,
+   "falsch": 0,
+   "erfunden": 0.0,
+   "tokens": null
+  }
+ ],
+ "frisch": {
+  "seeds": [
+   {
+    "seed": "20261018",
+    "v2": false,
+    "k": 49,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261019",
+    "v2": false,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261020",
+    "v2": false,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261021",
+    "v2": false,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261022",
+    "v2": false,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261023",
+    "v2": false,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261025",
+    "v2": true,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261026",
+    "v2": true,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261027",
+    "v2": true,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261028",
+    "v2": true,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   },
+   {
+    "seed": "20261029",
+    "v2": true,
+    "k": 50,
+    "n": 50,
+    "falsch": 0
+   }
+  ],
+  "k": 549,
+  "n": 550,
+  "wilson": [
+   0.99,
+   1.0
+  ],
+  "falsch": 0
+ }
+}

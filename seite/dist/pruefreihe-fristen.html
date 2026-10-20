@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Prüfreihe 1: Fristen berechnen · Gesetzesfest</title>
+<meta name="description" content="Was Prüfreihe 1 testet: neun Aufgabenarten von Widerspruch bis Kündigung, mit Beispielaufgabe und Rechenweg.">
+<link rel="canonical" href="https://gesetzesfest.de/pruefreihe-fristen.html">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<style>
+:root{--papier:#fbfaf6;--grund:#f2f1ec;--tinte:#16181a;--leise:#585e5a;--linie:#d6d3c9;--tanne:#1f4a3d;
+--tanne-hell:#dfe9e3;--rot:#a2362c;--f-kopf:"Newsreader",Georgia,serif;--f-text:"Hanken Grotesk",system-ui,sans-serif;
+--f-zahl:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--papier:#131514;--grund:#0e100f;--tinte:#e9e8e3;
+--leise:#a3a8a4;--linie:#2c312e;--tanne:#8fc7ae;--tanne-hell:#1b2b24;--rot:#f08a7e;color-scheme:dark}}
+:root[data-theme="dark"]{--papier:#131514;--grund:#0e100f;--tinte:#e9e8e3;--leise:#a3a8a4;--linie:#2c312e;--tanne:#8fc7ae;
+--tanne-hell:#1b2b24;--rot:#f08a7e;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--tinte);font-family:var(--f-text);font-size:17px;line-height:1.6;
+padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 56px}
+.blatt{max-width:1120px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-kopf);font-weight:600;line-height:1.1;margin:0;text-wrap:balance}
+p{margin:0}
+a{color:var(--tanne)}
+.zahl{font-family:var(--f-zahl);font-variant-numeric:tabular-nums}
+.klein{font-size:.85rem;color:var(--leise)}
+.kopf{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 28px;padding-block:20px 12px;border-bottom:2px solid var(--tinte)}
+.marke{font-family:var(--f-kopf);font-weight:700;font-size:2rem;letter-spacing:-.01em;text-decoration:none;color:var(--tinte);line-height:1.1}
+.marke small{display:block;font-family:var(--f-text);font-weight:500;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--leise)}
+.kopf nav{display:flex;flex-wrap:wrap;gap:6px 22px;font-size:.95rem;align-items:baseline}
+.kopf nav a{color:var(--tinte);text-decoration:none;border-bottom:1px solid transparent}
+.kopf nav a:hover,.kopf nav a:focus-visible,.kopf nav a[aria-current]{border-bottom-color:var(--tinte);outline:none}
+.kopf nav a.knopf{color:var(--papier);background:var(--tanne);padding:6px 14px;border:none}
+.stempel{font-family:var(--f-zahl);font-size:.8rem;color:var(--tanne)}
+.auftakt{padding-block:40px 28px;border-bottom:1px solid var(--linie);display:grid;gap:14px;max-width:820px}
+.auftakt h1{font-size:clamp(2.2rem,5vw,3.6rem)}
+.antwort{font-size:1.2rem;line-height:1.5}
+.antwort b{font-weight:600}
+section{padding-block:40px 6px;display:grid;gap:16px;scroll-margin-top:8px}
+section>header{display:grid;gap:6px;max-width:74ch}
+section h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}
+.etikett{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--leise);font-weight:500}
+.tabelle{overflow-x:auto;border-top:2px solid var(--tinte);border-bottom:1px solid var(--tinte)}
+table{width:100%;border-collapse:collapse;min-width:760px}
+caption{text-align:left;padding:10px 0;color:var(--leise);font-size:.88rem;caption-side:bottom}
+th{text-align:left;font-weight:500;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--leise);padding:12px 10px;border-bottom:1px solid var(--linie);white-space:nowrap}
+td{padding:12px 10px;border-bottom:1px solid var(--linie);vertical-align:middle}
+tr:last-child td{border-bottom:none}
+td.r,th.r{text-align:right}
+td.modell{font-weight:500;white-space:nowrap}
+tr.bester td.modell{color:var(--tanne);font-weight:700}
+tr.orakel td{color:var(--leise);font-style:italic}
+.balken{position:relative;height:18px;min-width:200px}
+.balken .spur{position:absolute;left:0;right:0;top:8px;height:2px;background:var(--linie)}
+.balken .ki{position:absolute;top:4px;height:10px;border:1px solid var(--leise);background:var(--grund)}
+.balken .wert{position:absolute;top:1px;width:3px;height:16px;margin-left:-1px;background:var(--tinte)}
+tr.bester .balken .ki{border-color:var(--tanne);background:var(--tanne-hell)}
+tr.bester .balken .wert{background:var(--tanne)}
+.achse{position:relative;height:14px;font-family:var(--f-zahl);font-size:.68rem;color:var(--leise)}
+.achse span{position:absolute;transform:translateX(-50%)}
+.falsch{color:var(--rot);font-weight:600}
+.raster{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0 28px}
+.feld{border-top:2px solid var(--tinte);padding-block:12px 18px;display:grid;gap:8px;align-content:start}
+.feld h3{font-size:1.3rem}
+.feld.offen{border-top-style:dotted}
+.schritte{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px;counter-reset:s}
+.schritt{counter-increment:s;border-top:1px solid var(--linie);padding-top:12px;display:grid;gap:6px}
+.schritt::before{content:counter(s);font-family:var(--f-kopf);font-weight:700;font-size:2rem;line-height:1;color:var(--tanne)}
+.saetze{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px}
+.satz{border:1px solid var(--linie);padding:10px 12px;display:grid;gap:2px}
+.satz b{font-family:var(--f-zahl);font-size:1.2rem;font-weight:500}
+.satz.fehlt b{color:var(--rot)}
+.familien{display:flex;flex-wrap:wrap;gap:8px}
+.familien span{border:1px solid var(--linie);padding:3px 12px;font-size:.9rem}
+.beispiel{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}
+.akte{background:var(--grund);border:1px solid var(--linie);padding:18px 20px;font-family:var(--f-zahl);font-size:.78rem;line-height:1.55;white-space:pre-wrap;overflow:auto;max-height:34rem;margin:0}
+.weg ol{margin:10px 0 0;padding-left:1.3em;display:grid;gap:8px;font-size:.95rem}
+.loesung{margin-top:16px;border-top:2px solid var(--tinte);padding-top:10px;display:flex;flex-wrap:wrap;gap:4px 16px;align-items:baseline}
+.loesung b{font-family:var(--f-kopf);font-size:2rem}
+.frage{border-top:1px solid var(--linie);padding-block:16px;display:grid;gap:6px;max-width:74ch}
+.frage h2{font-size:1.35rem}
+.kasten{border:2px solid var(--tanne);padding:22px 24px;display:grid;gap:10px}
+.kasten ul,.liste{margin:0;padding-left:1.1em;display:grid;gap:6px}
+pre.code{background:var(--grund);border:1px solid var(--linie);padding:14px 16px;font-family:var(--f-zahl);font-size:.8rem;overflow-x:auto;margin:0;white-space:pre-wrap}
+.weiter{font-weight:600}
+footer{margin-top:56px;border-top:2px solid var(--tinte);padding-top:14px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;font-size:.86rem;color:var(--leise)}
+footer nav{display:flex;flex-wrap:wrap;gap:4px 16px}
+footer a{color:var(--leise)}
+@media (max-width:780px){body{font-size:16px}.beispiel,.schritte{grid-template-columns:1fr}.schritt{padding-bottom:14px}}
+</style>
+
+</head>
+<body>
+<div class="blatt"><header class="kopf"><a class="marke" href="./">Gesetzesfest<small>Prüfreihe 1 · Fristprobe</small></a><nav aria-label="Hauptmenü"><a href="rangliste.html">Rangliste</a><a href="pruefreihe-fristen.html" aria-current="page">Prüfreihen</a><a href="methode.html">Methode</a><a href="daten.html">Daten</a><a href="faq.html">FAQ</a><a href="ueber.html">Über uns</a><a class="knopf" href="pruefen-lassen.html">Prüfen lassen</a></nav></header><main><div class="auftakt"><span class="etikett">Prüfreihen</span><h1>Was testet Prüfreihe 1 „Fristen berechnen“?</h1><p class="antwort">Sie testet, ob ein Modell aus einem Schreiben das richtige Fristende bestimmt oder ein genanntes Datum richtig prüft. Dazu muss es Zugang, Bekanntgabe, Wochenenden und Feiertage je Bundesland richtig behandeln.</p><p class="stempel">Stand 20.10.2026 · Code 3c20093 · 550 frische Fälle</p></div><section aria-labelledby="t1"><header><h2 id="t1">Welche Aufgabenarten gibt es?</h2></header><div class="familien"><span>Widerspruch nach SGB II</span><span>Widerspruch nach VwVfG</span><span>Einspruch nach AO</span><span>Klage vor dem Sozialgericht</span><span>Klage vor dem Verwaltungsgericht</span><span>Kündigungsschutzklage</span><span>Kündigung Arbeitsvertrag</span><span>Kündigung Mietvertrag</span><span>Jahresfrist ohne Belehrung</span></div></section><section aria-labelledby="t2"><header><h2 id="t2">Wie sieht eine Aufgabe aus?</h2><p class="klein">Beispiel aus einem öffentlichen Übungssatz.</p></header><div class="beispiel"><pre class="akte">Bundesstelle für Ehrenamtszuschüsse (Hessen)
+Am Mühlbach 34, 35573 Wetterbach
+
+Frau Zeynep Şahin
+Brunnenstraße 23
+34387 Lahnfelden
+
+Geschäftszeichen: Z 59-13271/2026 · Datum: 30.10.2026
+
+Bescheid über den Teilwiderruf einer Zuwendung
+Der Zuwendungsbescheid vom 03.07.2026 wird teilweise widerrufen.
+Sie haben 1.357,22 EUR zu erstatten. Der Betrag ist bis zum 29.11.2026 zu zahlen.
+
+— Seite 1 von 2 —
+
+Geschäftszeichen: Z 59-13271/2026 · Seite 2
+Erläuterungen
+Der Verwendungsnachweis weist geringere zuwendungsfähige Ausgaben aus als bewilligt.
+
+Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden. Der Widerspruch ist schriftlich oder zur Niederschrift bei der Behörde (Bundesstelle für Ehrenamtszuschüsse, Am Mühlbach 34, 35573 Wetterbach) einzulegen.
+
+Im Auftrag · L. Voigt
+
+Tag der Aufgabe zur Post: 30.10.2026 (einfacher Brief)
+— Seite 2 von 2 —</pre><div class="weg"><p><b>Bis zu welchem Tag (einschließlich) muss der Widerspruch spätestens bei der Behörde eingegangen sein?</b></p><ol><li>Aufgabe zur Post am Fr 30.10.2026: ab 01.01.2025, also Vier-Tage-Fiktion (PostModG).</li><li>Ein einfacher Brief im Inland gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (§ 41 Abs. 2 S. 1 VwVfG).</li><li>Gezählt werden Kalendertage, der Aufgabetag zählt nicht mit: Fr 30.10.2026 + 4 Tage = Di 03.11.2026.</li><li>Widerspruch innerhalb eines Monats nach Bekanntgabe (§ 70 Abs. 1 VwGO).</li><li>Der Ereignistag Di 03.11.2026 zählt nicht mit (§ 57 Abs. 2 VwGO, § 222 Abs. 1 ZPO, § 187 Abs. 1 BGB); die Frist läuft ab Mi 04.11.2026, 0:00 Uhr.</li><li>Frist von einem Monat: Ende am Tag mit derselben Zahl, Do 03.12.2026.</li><li>Do 03.12.2026 ist in Hessen ein Werktag; keine Verschiebung.</li><li>Feiertage nach dem Recht von Hessen (Behördensitz und Wohnort im selben Land).</li></ol><div class="loesung"><span class="etikett">Fristende</span><b>03.12.2026</b><span class="zahl klein">§ 70 Abs. 1 VwGO · § 41 Abs. 2 VwVfG</span></div></div></div></section><section aria-labelledby="t3"><header><h2 id="t3">Welche Prüfreihen kommen?</h2></header><div class="raster"><div class="feld"><span class="etikett">läuft</span><h3>1 · Fristen berechnen</h3><p>Wann endet die Frist, und stimmt das genannte Datum?</p></div><div class="feld"><span class="etikett">in Arbeit</span><h3>2 · Belehrung prüfen</h3><p>Ist die Rechtsbehelfsbelehrung vollständig und richtig? Fehlt sie, gilt oft ein Jahr statt eines Monats.</p></div><div class="feld offen"><span class="etikett">geplant</span><h3>3 · Form prüfen</h3><p>Reicht eine E-Mail, oder braucht es die Unterschrift auf Papier?</p></div></div></section></main><footer><span>Fristprobe · Stand 20.10.2026 · Code 3c20093 · alle Fälle erfunden · keine Rechtsberatung</span><nav aria-label="Fußmenü"><a href="rangliste.html">Rangliste</a><a href="pruefreihe-fristen.html">Prüfreihen</a><a href="methode.html">Methode</a><a href="daten.html">Daten</a><a href="faq.html">FAQ</a><a href="ueber.html">Über uns</a><a href="zitieren.html">Zitieren</a><a href="pruefen-lassen.html">Prüfen lassen</a></nav></footer></div>
+</body>
+</html>

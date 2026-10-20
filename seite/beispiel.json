@@ -1,0 +1,62 @@
+{
+ "id": "F012",
+ "version": "fristen-v1+vorlagen2",
+ "typ": "berechnen",
+ "art": "widerspruch_vwvfg",
+ "split": "privat",
+ "land": "HE",
+ "falle": [
+  "vier_tage_fiktion"
+ ],
+ "dokument": "Bundesstelle für Ehrenamtszuschüsse (Hessen)\nAm Mühlbach 34, 35573 Wetterbach\n\nFrau Zeynep Şahin\nBrunnenstraße 23\n34387 Lahnfelden\n\nGeschäftszeichen: Z 59-13271/2026 · Datum: 30.10.2026\n\nBescheid über den Teilwiderruf einer Zuwendung\nDer Zuwendungsbescheid vom 03.07.2026 wird teilweise widerrufen.\nSie haben 1.357,22 EUR zu erstatten. Der Betrag ist bis zum 29.11.2026 zu zahlen.\n\n— Seite 1 von 2 —\n\nGeschäftszeichen: Z 59-13271/2026 · Seite 2\nErläuterungen\nDer Verwendungsnachweis weist geringere zuwendungsfähige Ausgaben aus als bewilligt.\n\nGegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden. Der Widerspruch ist schriftlich oder zur Niederschrift bei der Behörde (Bundesstelle für Ehrenamtszuschüsse, Am Mühlbach 34, 35573 Wetterbach) einzulegen.\n\nIm Auftrag · L. Voigt\n\nTag der Aufgabe zur Post: 30.10.2026 (einfacher Brief)\n— Seite 2 von 2 —",
+ "frage": "Bis zu welchem Tag (einschließlich) muss der Widerspruch spätestens bei der Behörde eingegangen sein?",
+ "parameter": {
+  "funktion": "rechtsbehelf",
+  "argumente": {
+   "art": "widerspruch_vwvfg",
+   "land": "HE",
+   "zustellart": "brief",
+   "aufgabe_post": "2026-10-30",
+   "rbb": true
+  }
+ },
+ "sollwert": {
+  "antwortart": "berechnet",
+  "fristende": "2026-12-03",
+  "normen_pflicht": [
+   "§ 70 Abs. 1 VwGO",
+   "§ 41 Abs. 2 VwVfG"
+  ],
+  "normen_ok": [
+   "§ 187 Abs. 1 BGB",
+   "§ 187 BGB",
+   "§ 188 Abs. 2 BGB",
+   "§ 188 BGB",
+   "§ 222 Abs. 1 ZPO",
+   "§ 222 ZPO",
+   "§ 3 VwZG",
+   "§ 31 VwVfG",
+   "§ 41 Abs. 2 S. 1 VwVfG",
+   "§ 41 VwVfG",
+   "§ 57 Abs. 2 VwGO",
+   "§ 57 VwGO",
+   "§ 58 VwGO",
+   "§ 68 VwGO",
+   "§ 70 Abs. 1 VwGO",
+   "§ 70 VwGO"
+  ],
+  "teilpunkt_daten": [
+   "2026-11-30"
+  ]
+ },
+ "rechenweg": [
+  "[A-09] Aufgabe zur Post am Fr 30.10.2026: ab 01.01.2025, also Vier-Tage-Fiktion (PostModG).",
+  "[A-03] Ein einfacher Brief im Inland gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (§ 41 Abs. 2 S. 1 VwVfG).",
+  "[A-02] Gezählt werden Kalendertage, der Aufgabetag zählt nicht mit: Fr 30.10.2026 + 4 Tage = Di 03.11.2026.",
+  "[R-01] Widerspruch innerhalb eines Monats nach Bekanntgabe (§ 70 Abs. 1 VwGO).",
+  "[F-01] Der Ereignistag Di 03.11.2026 zählt nicht mit (§ 57 Abs. 2 VwGO, § 222 Abs. 1 ZPO, § 187 Abs. 1 BGB); die Frist läuft ab Mi 04.11.2026, 0:00 Uhr.",
+  "[FR-05] Frist von einem Monat: Ende am Tag mit derselben Zahl, Do 03.12.2026.",
+  "[F-03] Do 03.12.2026 ist in Hessen ein Werktag; keine Verschiebung.",
+  "[F-03] Feiertage nach dem Recht von Hessen (Behördensitz und Wohnort im selben Land)."
+ ]
+}

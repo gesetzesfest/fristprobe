@@ -1,0 +1,8 @@
+modell,kennung,bestanden,aufgaben,wilson_unten,wilson_oben,sicher_falsch,erfundene_normen,token_pro_s
+Qwen3 8B,qwen3:8b+rechner-v3,49,50,0.895,0.996,0,0.0,16.2
+Qwen3.5 9B,qwen3.5:9b+rechner-v3,47,50,0.838,0.979,0,0.0,6.1
+Gemma 3 4B,gemma3:4b+rechner-v3,44,50,0.762,0.944,10,0.0,30.6
+Qwen3 4B,qwen3:4b+rechner-v3,42,50,0.715,0.917,4,0.0,28.3
+Qwen3 8B (ältere Kette v2),qwen3:8b+rechner,38,50,0.626,0.857,1,0.0,18.0
+Gemma 4 E4B,gemma4:e4b-it-qat+rechner-v3,37,50,0.604,0.841,0,0.0,33.6
+Obergrenze: fehlerfreies Auslesen,orakel+rechner-v3,50,50,0.929,1.0,0,0.0,

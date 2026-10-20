@@ -1,0 +1,1380 @@
+[
+ {
+  "key": "bgb-zivil",
+  "regeln": [
+   {
+    "id": "FR-01",
+    "thema": "BGB 186: Geltungsbereich der Fristregeln",
+    "regel": "Die Auslegungsregeln der §§ 187 bis 193 BGB gelten für alle Frist- und Terminsbestimmungen in Gesetzen, gerichtlichen Verfügungen und Rechtsgeschäften (also auch für Fristen in Verträgen und Bescheiden). Es sind Auslegungsregeln: eine abweichende gesetzliche oder vertragliche Bestimmung geht vor.",
+    "normen": [
+     "§ 186 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__186.html",
+    "strittig": false,
+    "zitat": "gelten die Auslegungsvorschriften der §§ 187 bis 193.",
+    "hinweis": "Das Wort „Auslegungsvorschriften“ ist der Grund, warum Spezialgesetze (z. B. § 31 VwVfG, § 222 ZPO) und Verträge abweichen dürfen."
+   },
+   {
+    "id": "FR-02",
+    "thema": "BGB 187 Abs. 1: Fristbeginn bei Ereignis (Zugang, Zustellung, Bekanntgabe)",
+    "regel": "Ist für den Fristanfang ein Ereignis (z. B. Zugang einer Kündigung, Zustellung, Bekanntgabe) oder ein in den Lauf eines Tages fallender Zeitpunkt maßgebend, wird der Tag des Ereignisses nicht mitgerechnet. Die Frist beginnt mit dem Folgetag, 0:00 Uhr.",
+    "normen": [
+     "§ 187 Abs. 1 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__187.html",
+    "strittig": false,
+    "zitat": "so wird bei der Berechnung der Frist der Tag nicht mitgerechnet, in welchen das Ereignis oder der Zeitpunkt fällt.",
+    "hinweis": "Gilt auch, wenn das Ereignis auf einen Samstag, Sonntag oder Feiertag fällt. Der Fristbeginn wird nie verschoben (siehe FR-12)."
+   },
+   {
+    "id": "FR-03",
+    "thema": "BGB 187 Abs. 2: Fristbeginn mit Tagesbeginn (Starttag zählt mit)",
+    "regel": "Ist der Beginn eines Tages der maßgebende Zeitpunkt (z. B. „ab 1. März“, vereinbarter erster Arbeitstag, Beginn Probezeit, Beginn Mietverhältnis), wird dieser Tag mitgerechnet. Dasselbe gilt für den Geburtstag bei der Lebensalter-Berechnung.",
+    "normen": [
+     "§ 187 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__187.html",
+    "strittig": false,
+    "zitat": "so wird dieser Tag bei der Berechnung der Frist mitgerechnet.",
+    "hinweis": "Beleg aus der Rechtsprechung: BAG 27.06.2002 – 2 AZR 382/01 (https://lexetius.com/2002,2560): Haben die Parteien vorab einen ersten Arbeitstag vereinbart, zählt dieser voll mit (Probezeit ab 03.02.2000, sechs Monate, Ende mit Ablauf 02.08.2000). Offen gelassen hat das BAG den Fall, dass jemand erst im Laufe des Tages zu arbeiten beginnt."
+   },
+   {
+    "id": "FR-04",
+    "thema": "BGB 188 Abs. 1: Tagesfrist",
+    "regel": "Eine nach Tagen bemessene Frist endet mit Ablauf (24:00 Uhr) des letzten Tages der Frist. Bei Ereignisfrist (§ 187 Abs. 1) mit Ereignistag E und n Tagen ist der letzte Tag E + n Tage. Bei Tagesbeginn-Frist (§ 187 Abs. 2) mit Starttag A ist der letzte Tag A + n − 1 Tage.",
+    "normen": [
+     "§ 188 Abs. 1 BGB",
+     "§ 187 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+    "strittig": false,
+    "zitat": "endigt mit dem Ablauf des letzten Tages der Frist.",
+    "hinweis": "Rechenformel aus Wortlaut und § 187 abgeleitet. Danach ist ggf. eine Verschiebung nach § 193 BGB bzw. § 222 Abs. 2 ZPO / § 31 Abs. 3 VwVfG zu prüfen (nur wo anwendbar, siehe FR-11 bis FR-15)."
+   },
+   {
+    "id": "FR-05",
+    "thema": "BGB 188 Abs. 2: Wochen-, Monats-, Jahresfrist",
+    "regel": "Eine nach Wochen, Monaten oder einem mehrmonatigen Zeitraum (Jahr, halbes Jahr, Vierteljahr) bestimmte Frist endet bei Ereignisfrist (§ 187 Abs. 1) mit Ablauf des Tages der letzten Woche bzw. des letzten Monats, der durch Benennung (Wochentag) oder Zahl (Datum) dem Ereignistag entspricht. Wochenfrist: Ende = E + 7·n Tage. Monatsfrist: gleiche Tageszahl n Monate später. Bei Tagesbeginn-Frist (§ 187 Abs. 2) endet sie mit Ablauf des Tages, der dem Tag vorhergeht, der dem Anfangstag entspricht.",
+    "normen": [
+     "§ 188 Abs. 2 BGB",
+     "§ 187 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+    "strittig": false,
+    "zitat": "welcher durch seine Benennung oder seine Zahl dem Tage entspricht, in den das Ereignis oder der Zeitpunkt fällt",
+    "hinweis": "Belege: BAG 26.03.2015 – 2 AZR 483/14 (https://www.bundesarbeitsgericht.de/entscheidung/2-azr-483-14/): Zugang Mittwoch 24.10.2012, Klage am Mittwoch 14.11.2012 noch rechtzeitig (§ 187 Abs. 1, § 188 Abs. 2 BGB). BAG 24.10.2013 – 2 AZR 1057/12: Wartezeit ab 15.05.2010 (Starttag zählt), sechs Monate enden mit Ablauf 14.11.2010."
+   },
+   {
+    "id": "FR-06",
+    "thema": "BGB 188 Abs. 3: Monatsende-Regel (fehlender Tag)",
+    "regel": "Fehlt bei einer nach Monaten bestimmten Frist im letzten Monat der für das Fristende maßgebende Tag, endet die Frist mit Ablauf des letzten Tages dieses Monats. Beispiele: Zugang 31.01. plus 1 Monat endet 28.02. (29.02. im Schaltjahr); Zugang 31.10. plus 1 Monat endet 30.11.",
+    "normen": [
+     "§ 188 Abs. 3 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+    "strittig": false,
+    "zitat": "so endigt die Frist mit dem Ablauf des letzten Tages dieses Monats.",
+    "hinweis": "Der Wortlaut nennt nur „nach Monaten bestimmte“ Fristen. Ob und wie das auf Jahresfristen ab dem 29.02. übertragen wird, habe ich nicht belegt (siehe offene Punkte). Die Beispiele sind aus dem Wortlaut gerechnet."
+   },
+   {
+    "id": "FR-07",
+    "thema": "BGB 189: halbes Jahr, Vierteljahr, halber Monat",
+    "regel": "Ein halbes Jahr = 6 Monate, ein Vierteljahr = 3 Monate, ein halber Monat = 15 Tage. Ist eine Frist auf ganze Monate und einen halben Monat gestellt, werden die 15 Tage zuletzt gezählt (erst die Monate, danach 15 Tage anhängen).",
+    "normen": [
+     "§ 189 Abs. 1 BGB",
+     "§ 189 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__189.html",
+    "strittig": false,
+    "zitat": "unter einem halben Monat eine Frist von 15 Tagen verstanden.",
+    "hinweis": "Ein „halber Monat“ ist nie 14 oder 16 Tage."
+   },
+   {
+    "id": "FR-08",
+    "thema": "BGB 190: Fristverlängerung",
+    "regel": "Wird eine Frist verlängert, schließt die neue Frist an den Ablauf der vorigen Frist an: Sie wird von dem Ablauf der vorigen Frist an berechnet, nicht ab dem Tag der Verlängerung. Für richterliche und gesetzliche Prozessfristen bestimmt § 224 Abs. 3 ZPO dasselbe, wenn nichts anderes bestimmt ist.",
+    "normen": [
+     "§ 190 BGB",
+     "§ 224 Abs. 3 ZPO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__190.html",
+    "strittig": false,
+    "zitat": "wird die neue Frist von dem Ablauf der vorigen Frist an berechnet.",
+    "hinweis": "Offen (nicht geprüft): ob die Verlängerung am nominellen Ablauftag oder am nach § 222 Abs. 2 ZPO verschobenen Werktag anknüpft, wenn das ursprüngliche Fristende auf ein Wochenende fiel. Solche Fälle in der Aufgabenklasse vermeiden oder als unsicher markieren."
+   },
+   {
+    "id": "FR-09",
+    "thema": "BGB 191: nicht zusammenhängende Zeiträume",
+    "regel": "Ist ein Zeitraum nach Monaten oder Jahren so bestimmt, dass er nicht zusammenhängend zu verlaufen braucht, wird der Monat zu 30 und das Jahr zu 365 Tagen gerechnet. Gilt nicht für zusammenhängende Fristen (dort § 188).",
+    "normen": [
+     "§ 191 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__191.html",
+    "strittig": false,
+    "zitat": "so wird der Monat zu 30, das Jahr zu 365 Tagen gerechnet.",
+    "hinweis": "Beispiel: „insgesamt drei Monate, auch in Teilabschnitten“ = 90 Tage."
+   },
+   {
+    "id": "FR-10",
+    "thema": "BGB 192: Anfang, Mitte, Ende des Monats",
+    "regel": "Anfang des Monats = der 1., Mitte des Monats = der 15., Ende des Monats = der letzte Tag des Monats (28., 29., 30. oder 31.).",
+    "normen": [
+     "§ 192 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__192.html",
+    "strittig": false,
+    "zitat": "unter Ende des Monats der letzte Tag des Monats verstanden.",
+    "hinweis": "Wichtig für „zum Ende des Kalendermonats“ und „zum 15.“ in Kündigungsterminen."
+   },
+   {
+    "id": "FR-11",
+    "thema": "BGB 193: Verschiebung des Fristendes bei Samstag, Sonntag, Feiertag",
+    "regel": "Ist an einem bestimmten Tag oder innerhalb einer Frist eine Willenserklärung abzugeben oder eine Leistung zu bewirken und fällt der bestimmte Tag oder der letzte Tag der Frist auf einen Sonntag, einen am Erklärungs- oder Leistungsort staatlich anerkannten allgemeinen Feiertag oder einen Sonnabend, tritt an seine Stelle der nächste Werktag. Programmierbar: nächster Tag, der weder Samstag noch Sonntag noch Feiertag (am Erklärungs- bzw. Leistungsort) ist.",
+    "normen": [
+     "§ 193 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__193.html",
+    "strittig": false,
+    "zitat": "so tritt an die Stelle eines solchen Tages der nächste Werktag.",
+    "gilt_ab": "Sonnabend-Gleichstellung seit 1965 (Gesetz über den Fristablauf vom 10.08.1965, BGBl. I S. 753; laut BGH 27.04.2005 – VIII ZR 206/04, Rn. 31)",
+    "hinweis": "Nur für Willenserklärungen und Leistungen, nicht für Zeiträume wie Wartezeiten und nicht für Kündigungsfristen (FR-13, FR-14). Dass „nächster Werktag“ den Samstag überspringt, ist Auslegung (BGH setzt den Sonnabend für den Fristablauf Sonn- und Feiertagen gleich, Rn. 30 f.). Welche Landesfeiertage gelten, richtet sich nach dem Erklärungs- oder Leistungsort."
+   },
+   {
+    "id": "FR-12",
+    "thema": "Fristbeginn wird nie verschoben (Zustellung am Samstag löst Frist aus)",
+    "regel": "Die Verschiebung nach § 193 BGB / § 222 Abs. 2 ZPO betrifft nur das Fristende. Fällt das Ereignis, das die Frist auslöst (Zustellung, Zugang), auf einen Samstag, Sonntag oder Feiertag, beginnt die Frist trotzdem am Folgetag nach § 187 Abs. 1 BGB.",
+    "normen": [
+     "§ 187 Abs. 1 BGB",
+     "§ 193 BGB",
+     "§ 222 Abs. 2 ZPO"
+    ],
+    "quelle_url": "https://lexetius.com/2011,1078",
+    "strittig": false,
+    "zitat": "Für den Fristbeginn bleibt es bei § 187 BGB (sinngemäß, BGH-Beschluss).",
+    "hinweis": "BGH (Senat für Anwaltssachen) 22.03.2011 – AnwZ (Brfg) 7/11: Widerrufsbescheid am Samstag 05.06.2010 zugestellt, Monatsfrist endete Montag 05.07.2010. Die Entscheidung betrifft eine prozessuale Frist; die Aussage, § 193 BGB erfasse nur das Fristende, folgt aber schon aus dem Wortlaut."
+   },
+   {
+    "id": "FR-13",
+    "thema": "BGB 193 gilt nicht für Kündigungsfristen (BGH)",
+    "regel": "§ 193 BGB ist auf Kündigungsfristen weder unmittelbar noch entsprechend anwendbar, ohne Rücksicht auf die Art des Vertrags (Arbeit, Miete, Dienst, Werbung usw.), soweit keine abweichende gesetzliche oder vertragliche Regelung besteht. Folge für den Code: Das Fristende einer Kündigungsfrist und der Kündigungstermin werden nicht auf den nächsten Werktag verschoben. Die Kündigung muss so rechtzeitig zugehen, dass die Frist am nominellen Tag abgelaufen ist, auch wenn dieser Tag ein Samstag, Sonntag oder Feiertag ist.",
+    "normen": [
+     "§ 193 BGB",
+     "§ 622 BGB",
+     "§ 573c BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2005,296",
+    "strittig": false,
+    "zitat": "§ 193 BGB ist auf Kündigungsfristen weder unmittelbar noch entsprechend anwendbar",
+    "hinweis": "BGH 17.02.2005 – III ZR 172/04 (BGHZ 162, 175), Volltext gelesen: Rn. 14 „insgesamt nicht für Kündigungsfristen“. Begründung: § 193 schützt den Erklärenden, Kündigungsfristen schützen den Empfänger; Rechtssicherheit. Fortführung von BGHZ 59, 265 (BGH 28.09.1972 – VII ZR 186/71, Handelsvertreter). Zum Mietrecht hatte der BGH in Rn. 17 noch keine Entscheidung gesehen, dehnt aber in der Begründung auf alle Kündigungsfristen aus."
+   },
+   {
+    "id": "FR-14",
+    "thema": "BGB 193 gilt nicht für Kündigungsfristen im Arbeitsrecht (BAG) und nicht für die Wartezeit",
+    "regel": "Das BAG wendet § 193 BGB auf Kündigungsfristen im Arbeitsverhältnis nicht an, unabhängig davon, wie lang die Frist ist und ob sie auf Gesetz, Tarifvertrag oder Einzelvereinbarung beruht. Ebenso verlängert sich die sechsmonatige Wartezeit des § 1 Abs. 1 KSchG nicht, wenn ihr letzter Tag auf einen Samstag, Sonntag oder Feiertag fällt.",
+    "normen": [
+     "§ 193 BGB",
+     "§ 622 BGB",
+     "§ 1 Abs. 1 KSchG"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-1057-12/",
+    "strittig": false,
+    "zitat": "§ 193 BGB findet auf die Berechnung der Wartezeit iSv. § 1 Abs. 1 KSchG keine Anwendung.",
+    "hinweis": "Belege: BAG 24.10.2013 – 2 AZR 1057/12, Rn. 46 bis 49 (Wartezeit endete Sonntag 14.11.2010, keine Verlängerung bis Montag). Grundlinie BAG 05.03.1970 – 2 AZR 112/69 (BAGE 22, 304); den Volltext von 2 AZR 112/69 habe ich nicht abgerufen, die Aussage ist über BGH III ZR 172/04 (Rn. 16, 20) und BAG 2 AZR 1057/12 belegt."
+   },
+   {
+    "id": "FR-15",
+    "thema": "BGB 193 gilt für Erklärungsfristen (Beispiel: 2-Wochen-Frist § 626 Abs. 2 BGB)",
+    "regel": "Ist eine Frist dazu da, innerhalb von ihr eine Willenserklärung abzugeben (z. B. die Zwei-Wochen-Frist für die außerordentliche Kündigung, § 626 Abs. 2 BGB), wird § 193 BGB angewandt: Fällt der letzte Tag auf Samstag, Sonntag oder Feiertag, endet die Frist am nächsten Werktag.",
+    "normen": [
+     "§ 193 BGB",
+     "§ 626 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-1057-12/",
+    "strittig": false,
+    "zitat": "Die Kündigung kann nur innerhalb von zwei Wochen erfolgen. (§ 626 Abs. 2 BGB)",
+    "hinweis": "BAG 24.10.2013 – 2 AZR 1057/12, Rn. 48 f. verweist auf BAG 03.10.1985 – 2 AZR 601/84 (§ 193 auf § 626 Abs. 2 angewandt). Die Entscheidung 2 AZR 601/84 selbst habe ich nicht gelesen, nur die Wiedergabe im BAG-Urteil 2 AZR 1057/12."
+   },
+   {
+    "id": "AR-01",
+    "thema": "BGB 622 Abs. 1: Grundkündigungsfrist",
+    "regel": "Das Arbeitsverhältnis kann (Kündigung durch den Arbeitnehmer immer, durch den Arbeitgeber bis unter 2 Jahre Betriebs- oder Unternehmenszugehörigkeit) mit einer Frist von vier Wochen (= 28 Tage) zum 15. oder zum Ende eines Kalendermonats gekündigt werden. Berechnung: Fristende = Zugangstag + 28 Tage (§ 187 Abs. 1, § 188 Abs. 2 BGB). Frühester Kündigungstermin = der erste Termin aus {15., letzter Tag des Monats}, der am oder nach diesem Fristende liegt.",
+    "normen": [
+     "§ 622 Abs. 1 BGB",
+     "§ 187 BGB",
+     "§ 188 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__622.html",
+    "strittig": false,
+    "zitat": "mit einer Frist von vier Wochen zum Fünfzehnten oder zum Ende eines Kalendermonats gekündigt werden.",
+    "hinweis": "Beispiel (gerechnet): Zugang 18.10. + 28 Tage = 15.11. -> Ende 15.11.; Zugang 19.10. -> 16.11. -> Ende 30.11. Annahme „zum 15.“ = Ablauf des 15. habe ich nicht mit einem Urteil belegt (offene Punkte). Kein § 193 BGB auf Fristende und Termin (FR-13, FR-14). Tarifvertrag oder Arbeitsvertrag kann abweichen (AR-07)."
+   },
+   {
+    "id": "AR-02",
+    "thema": "BGB 622 Abs. 2: verlängerte Fristen für Arbeitgeberkündigung nach Betriebszugehörigkeit",
+    "regel": "Bei Kündigung durch den Arbeitgeber beträgt die Frist, wenn das Arbeitsverhältnis im Betrieb oder Unternehmen bestanden hat: 2 Jahre = 1 Monat, 5 Jahre = 2 Monate, 8 Jahre = 3 Monate, 10 Jahre = 4 Monate, 12 Jahre = 5 Monate, 15 Jahre = 6 Monate, 20 Jahre = 7 Monate, jeweils zum Ende eines Kalendermonats. Maßgeblich ist die Beschäftigungsdauer im Zeitpunkt des Zugangs der Kündigung, nicht des Kündigungstermins. Für die Arbeitnehmerkündigung gilt weiter nur Abs. 1.",
+    "normen": [
+     "§ 622 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__622.html",
+    "strittig": false,
+    "zitat": "fünf Jahre bestanden hat, zwei Monate zum Ende eines Kalendermonats",
+    "hinweis": "Stichtag Zugang: BAG 18.09.2014 – 6 AZR 636/13 (https://www.bundesarbeitsgericht.de/entscheidung/6-azr-636-13/): Beschäftigungsdauer „im Zeitpunkt des Zugangs der Kündigung“; zählt auch die Zeit einer abgebrochenen Ausbildung. Die Staffelung ist nicht altersdiskriminierend (Leitsatz). Wann genau „zwei Jahre bestanden“ sind, folgt aus § 187 Abs. 2 / § 188 Abs. 2 (Starttag zählt, Ende mit Ablauf des Vortags des Jahrestags); das ist aus BAG 2 AZR 1057/12 (Wartezeit) abgeleitet, für § 622 nicht einzeln belegt."
+   },
+   {
+    "id": "AR-03",
+    "thema": "BGB 622 Abs. 2: Satz 2 (Zeiten vor dem 25. Lebensjahr) ist aufgehoben",
+    "regel": "Alle Beschäftigungszeiten zählen für die Staffel nach § 622 Abs. 2, auch Zeiten vor Vollendung des 25. Lebensjahrs. Der frühere Satz 2, der solche Zeiten ausnahm, wurde zum 01.01.2019 aufgehoben; zuvor war er wegen EuGH C-555/07 (Kücükdeveci, 19.01.2010) nicht mehr anzuwenden. In neuen Aufgaben keinen Altersabzug rechnen.",
+    "normen": [
+     "§ 622 Abs. 2 BGB",
+     "Art. 4d Qualifizierungschancengesetz"
+    ],
+    "quelle_url": "https://dserver.bundestag.de/btd/19/061/1906146.pdf",
+    "strittig": false,
+    "zitat": "Ferner wird § 622 Absatz 2 Satz 2 des Bürgerlichen Gesetzbuchs (BGB) aufgehoben. (Begründung, laut Suchtreffer wiedergegeben)",
+    "gilt_ab": "2019-01-01",
+    "hinweis": "Aufhebung belegt über Bundestags-Drucksache 19/6146 (Beschlussempfehlung) und die aktuelle gesetze-im-internet-Fassung von § 622, die Absatz 2 ohne Satz 2 zeigt. Das Bundesgesetzblatt (BGBl. I 2018 S. 2651) habe ich nicht direkt gelesen. Ältere Kommentare und Ratgeber führen den Satz noch auf: Falle für Modelle mit altem Wissen."
+   },
+   {
+    "id": "AR-04",
+    "thema": "Algorithmus Kündigung „einen Monat (oder mehr) zum Monatsende“",
+    "regel": "Gegeben Zugangstag Z und Frist von m Monaten (Arbeitgeberstaffel). Fristende = Z plus m Monate nach § 188 Abs. 2 und 3 (gleiche Tageszahl, sonst letzter Tag des Monats). Kündigungstermin = der erste Monatsletzte, der am oder nach dem Fristende liegt. Beispiele (gerechnet): Z = 30.11., m = 1: Fristende 30.12., Termin 31.12. Z = 01.12.: Fristende 01.01., Termin 31.01. Z = 31.01.2025, m = 1: Fristende 28.02.2025, Termin 28.02.2025. Äquivalent: Kündigung muss spätestens am letzten Tag des Monats zugehen, der m Monate vor dem Terminmonat endet. Kein § 193 BGB.",
+    "normen": [
+     "§ 622 Abs. 2 BGB",
+     "§ 187 Abs. 1 BGB",
+     "§ 188 Abs. 2 BGB",
+     "§ 188 Abs. 3 BGB",
+     "§ 192 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+    "strittig": false,
+    "zitat": "einen Monat zum Ende eines Kalendermonats",
+    "hinweis": "Herleitung aus dem Gesetzestext. Ein einzelnes Urteil, das genau diese Rechenkette bestätigt, habe ich nicht gefunden; die Randfälle 31.01. und 31.10. folgen zwingend aus § 188 Abs. 3. Als Gegenprobe im Test ausdrücklich gegen eine zweite, unabhängig geschriebene Implementierung laufen lassen."
+   },
+   {
+    "id": "AR-05",
+    "thema": "BGB 622 Abs. 3: Probezeit, zwei Wochen, ohne Termin",
+    "regel": "Während einer vereinbarten Probezeit, höchstens sechs Monate, kann mit einer Frist von zwei Wochen gekündigt werden. Es gibt keinen Kündigungstermin (weder 15. noch Monatsende). Fristende = Zugangstag + 14 Tage (Ablauf). Dauert die vereinbarte Probezeit länger als sechs Monate, gilt für die Zeit danach zwingend wieder die gesetzliche Grundfrist.",
+    "normen": [
+     "§ 622 Abs. 3 BGB",
+     "§ 187 Abs. 1 BGB",
+     "§ 188 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2008,709",
+    "strittig": false,
+    "zitat": "längstens für die Dauer von sechs Monaten, kann das Arbeitsverhältnis mit einer Frist von zwei Wochen gekündigt werden.",
+    "hinweis": "BAG 24.01.2008 – 6 AZR 519/07: Zugang 30.06.2006 (Freitag), Ende 14.07.2006 (Freitag). Wirksamkeit der Probezeit hängt nur von der Höchstdauer von sechs Monaten ab (Leitsatz), aber im befristeten Arbeitsverhältnis sind weitere Anforderungen zu beachten (siehe § 15 Abs. 3 TzBfG, BAG 2 AZR 160/24, nicht vertieft). „Kein Termin“ ist aus dem Vergleich der Absätze 1, 2 (mit Termin) und 3 (ohne Termin) im Wortlaut geschlossen."
+   },
+   {
+    "id": "AR-06",
+    "thema": "Probezeit: Zugang muss innerhalb der Probezeit erfolgen, Probezeitende berechnen",
+    "regel": "Die kurze Probezeit-Frist gilt nur, wenn die Kündigung noch während der Probezeit zugeht. Das Ende der Probezeit berechnet sich nach § 187 Abs. 2, § 188 Abs. 2: Der erste Arbeitstag zählt mit, sechs Monate ab 03.02. enden mit Ablauf des 02.08., 24:00 Uhr. Geht die Kündigung erst am Tag danach zu, gilt nicht mehr die Probezeitfrist.",
+    "normen": [
+     "§ 622 Abs. 3 BGB",
+     "§ 187 Abs. 2 BGB",
+     "§ 188 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2002,2560",
+    "strittig": false,
+    "zitat": "Die Probezeit begann am 3. Februar 2000 (Sachverhalt, sinngemäß).",
+    "hinweis": "BAG 27.06.2002 – 2 AZR 382/01: Kündigung vom 03.08.2000 ging nach Ablauf der Probezeit (02.08.2000) zu, daher längere Frist. Das Urteil betraf eine vertragliche dreitägige Probezeitfrist; die Zugangslogik gilt entsprechend für die gesetzliche Zwei-Wochen-Frist. Dass die Frist selbst nach dem Ende der Probezeit ablaufen darf, ist eine Folgerung aus der Zugangsregel, nicht ausdrücklich so ausgesprochen."
+   },
+   {
+    "id": "AR-07",
+    "thema": "BGB 622 Abs. 4 bis 6: Tarifvertrag, Kleinbetrieb, Aushilfe, Gleichlauf, Günstigkeit",
+    "regel": "Abs. 4: Tarifvertrag kann abweichen; gilt für Nicht-Tarifgebundene, wenn die Anwendung vereinbart ist. Abs. 5: Eine kürzere Frist als Abs. 1 ist einzelvertraglich nur zulässig (1) bei vorübergehender Aushilfe, nicht wenn das Verhältnis über drei Monate hinaus fortgesetzt wird, oder (2) wenn der Arbeitgeber in der Regel höchstens 20 Arbeitnehmer beschäftigt (ohne Auszubildende; Teilzeit bis 20 Wochenstunden zählt 0,5, bis 30 Stunden 0,75) und die Frist vier Wochen nicht unterschreitet. Längere Fristen als Abs. 1 bis 3 bleiben zulässig. Abs. 6: Für die Arbeitnehmerkündigung darf keine längere Frist vereinbart werden als für die Arbeitgeberkündigung. Eine vertragliche Frist setzt sich nur durch, wenn sie in jedem Fall zu einer späteren Beendigung führt (Frist und Termin als Einheit verglichen).",
+    "normen": [
+     "§ 622 Abs. 4 BGB",
+     "§ 622 Abs. 5 BGB",
+     "§ 622 Abs. 6 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__622.html",
+    "strittig": false,
+    "zitat": "keine längere Frist vereinbart werden als für die Kündigung durch den Arbeitgeber.",
+    "hinweis": "Günstigkeitsvergleich: BAG 29.01.2015 – 2 AZR 280/14 (https://www.bundesarbeitsgericht.de/entscheidung/2-azr-280-14/): vertraglich sechs Monate zum Halbjahresende schlägt nicht die gesetzlichen sieben Monate zum Monatsende, maßgeblich blieb die gesetzliche Frist. Hinweis: Die Wortlaut-Fassung stammt aus dem gelesenen HTML von gesetze-im-internet.de."
+   },
+   {
+    "id": "AR-08",
+    "thema": "BGB 623: Schriftform der Kündigung im Arbeitsverhältnis",
+    "regel": "Die Kündigung eines Arbeitsverhältnisses (und der Auflösungsvertrag) bedarf der Schriftform; die elektronische Form ist ausgeschlossen. Für die Aufgabenklasse heißt das: Eine Kündigung per E-Mail, Messenger oder Fax-Kopie ist formunwirksam. Schriftform verlangt nach § 126 Abs. 1 BGB die eigenhändige Namensunterschrift.",
+    "normen": [
+     "§ 623 BGB",
+     "§ 126 Abs. 1 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__623.html",
+    "strittig": false,
+    "zitat": "bedürfen zu ihrer Wirksamkeit der Schriftform; die elektronische Form ist ausgeschlossen.",
+    "hinweis": "Nicht ausdrücklich angefragt, aber für Kündigungsaufgaben nötig, damit „Frist richtig“ nicht mit „Kündigung wirksam“ verwechselt wird. Wie sich ein Formmangel auf den Beginn der Klagefrist auswirkt, habe ich nicht geprüft (offene Punkte)."
+   },
+   {
+    "id": "AR-09",
+    "thema": "KSchG 1 Abs. 1: Wartezeit sechs Monate",
+    "regel": "Das Kündigungsschutzgesetz greift, wenn das Arbeitsverhältnis im selben Betrieb oder Unternehmen ohne Unterbrechung länger als sechs Monate bestanden hat. Berechnung: Starttag zählt mit (§ 187 Abs. 2), sechs Monate enden mit Ablauf des Vortags des Datums sechs Monate später (§ 188 Abs. 2); kein § 193 BGB. Eine Kündigung, die erst am Tag nach diesem Ablauf zugeht, unterliegt dem KSchG, auch wenn das Wartezeitende ein Wochenende war.",
+    "normen": [
+     "§ 1 Abs. 1 KSchG",
+     "§ 187 Abs. 2 BGB",
+     "§ 188 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-1057-12/",
+    "strittig": false,
+    "zitat": "ohne Unterbrechung länger als sechs Monate bestanden hat",
+    "hinweis": "BAG 24.10.2013 – 2 AZR 1057/12: vereinbarter Beginn 15.05.2010, Wartezeit endete mit Ablauf Sonntag 14.11.2010, Zugang Montag 15.11.2010 genügte. Der Wortlaut von § 1 KSchG wurde aus gesetze-im-internet.de gelesen. Das Beispiel Betriebsübergang (§ 613a BGB) im Urteil ist hier nicht eingearbeitet."
+   },
+   {
+    "id": "KS-01",
+    "thema": "KSchG 4 Satz 1: Klagefrist drei Wochen nach Zugang der schriftlichen Kündigung",
+    "regel": "Wer geltend machen will, dass eine Kündigung sozial ungerechtfertigt oder aus anderen Gründen rechtsunwirksam ist, muss innerhalb von drei Wochen nach Zugang der schriftlichen Kündigung Klage beim Arbeitsgericht auf Feststellung erheben, dass das Arbeitsverhältnis durch die Kündigung nicht aufgelöst ist. Bei Änderungskündigung (§ 2) geht die Klage auf Feststellung, dass die Änderung der Arbeitsbedingungen sozial ungerechtfertigt oder unwirksam ist.",
+    "normen": [
+     "§ 4 Satz 1 KSchG",
+     "§ 4 Satz 2 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__4.html",
+    "strittig": false,
+    "zitat": "innerhalb von drei Wochen nach Zugang der schriftlichen Kündigung Klage beim Arbeitsgericht",
+    "gilt_ab": "2004-01-01 (Neufassung, laut Sekundärangabe zu BAG 2 AZR 148/05)",
+    "hinweis": "Die Frist gilt für alle Unwirksamkeitsgründe, nicht nur Sozialwidrigkeit. Auch für außerordentliche Kündigungen (KS-09)."
+   },
+   {
+    "id": "KS-02",
+    "thema": "Berechnung der Klagefrist (BGB 187 Abs. 1, 188 Abs. 2 über ZPO 222 Abs. 1)",
+    "regel": "Die Berechnung folgt dem BGB (§ 222 Abs. 1 ZPO, im Arbeitsgerichtsverfahren erster Instanz über § 46 Abs. 2 ArbGG): Der Zugangstag zählt nicht mit. Die Frist endet mit Ablauf des Tages der dritten Woche, der dem Zugangstag im Wochentag entspricht, also Zugangstag + 21 Tage (24:00 Uhr). Zugang am Mittwoch bedeutet: Klage muss spätestens am Mittwoch drei Wochen später beim Arbeitsgericht eingehen.",
+    "normen": [
+     "§ 4 Satz 1 KSchG",
+     "§ 222 Abs. 1 ZPO",
+     "§ 46 Abs. 2 ArbGG",
+     "§ 187 Abs. 1 BGB",
+     "§ 188 Abs. 2 BGB"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-483-14/",
+    "strittig": false,
+    "zitat": "Für die Berechnung der Fristen gelten die Vorschriften des Bürgerlichen Gesetzbuchs. (§ 222 Abs. 1 ZPO)",
+    "hinweis": "BAG 26.03.2015 – 2 AZR 483/14: Zugang 24.10.2012 (Mi), Klageeingang 14.11.2012 (Mi) wäre gerade noch rechtzeitig, ein früherer Zugang nicht. BAG 03.04.2025 – 2 AZR 156/24: Zugang Samstag 14.05.2022, Klagefrist lief am Dienstag 07.06.2022 ab (Samstag 04.06. -> Pfingstsonntag -> Pfingstmontag -> Dienstag). Zugangstag und Wochentag-Regel sind dort nicht ausdrücklich erläutert, nur mit den Daten verwendet."
+   },
+   {
+    "id": "KS-03",
+    "thema": "ZPO 222 Abs. 2: Fristende am Wochenende oder Feiertag, Verschiebung bei der Klagefrist",
+    "regel": "Fällt das Ende einer Frist auf einen Sonntag, einen allgemeinen Feiertag oder einen Sonnabend, endet die Frist mit Ablauf des nächsten Werktages. Das gilt für die Klagefrist des § 4 KSchG, weil § 222 ZPO im arbeitsgerichtlichen Urteilsverfahren erster Instanz entsprechend gilt. Für Prozessfristen ersetzt § 222 Abs. 2 ZPO den § 193 BGB. Zusätzlich gilt § 222 Abs. 3 ZPO: Stundenfristen zählen Sonn-, Feiertage und Sonnabende nicht mit.",
+    "normen": [
+     "§ 222 Abs. 2 ZPO",
+     "§ 222 Abs. 3 ZPO",
+     "§ 46 Abs. 2 ArbGG",
+     "§ 4 Satz 1 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__222.html",
+    "strittig": false,
+    "zitat": "so endet die Frist mit Ablauf des nächsten Werktages.",
+    "hinweis": "Anwendung im Ergebnis belegt durch BAG 03.04.2025 – 2 AZR 156/24 (Frist lief an Dienstag nach Pfingsten ab). Das BAG nennt § 222 ZPO dort nicht ausdrücklich. Dass § 222 Abs. 2 ZPO § 193 BGB für Prozessfristen ersetzt: BGH 22.03.2011 – AnwZ (Brfg) 7/11 (lexetius.com/2011,1078). Wichtig: Das gilt nicht für die Kündigungsfrist selbst (FR-13)."
+   },
+   {
+    "id": "KS-04",
+    "thema": "Feiertag am Gerichtsort bei Fristende",
+    "regel": "Ein Feiertag verschiebt das Fristende nur, wenn der Tag am Ort des Gerichts gesetzlicher Feiertag ist. Landesfeiertage anderer Bundesländer zählen nicht. Beispiel: Fronleichnam gilt am Gerichtsort Erfurt nicht als gesetzlicher Feiertag.",
+    "normen": [
+     "§ 222 Abs. 2 ZPO",
+     "§ 193 BGB"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/8-azn-808-11/",
+    "strittig": false,
+    "zitat": "Am Gerichtsort Erfurt ist daher der Fronleichnamstag kein gesetzlicher Feiertag.",
+    "hinweis": "BAG 24.08.2011 – 8 AZN 808/11 betrifft eine Rechtsmittelfrist (Faxeingang 24.06.2011 statt 23.06.2011). Übertragung auf die Klagefrist nach § 4 KSchG (Ort des angerufenen Arbeitsgerichts) ist eine Ableitung, nicht eigens belegt."
+   },
+   {
+    "id": "KS-05",
+    "thema": "Fristwahrung durch Eingang der Klage bei Gericht",
+    "regel": "Für die Fristwahrung zählt der Eingang der Klageschrift beim Arbeitsgericht innerhalb der Dreiwochenfrist. Erfolgt die Zustellung an den Gegner erst später, kann die Wirkung bei „demnächst“ erfolgender Zustellung auf den Zeitpunkt des Eingangs zurückwirken (§ 167 ZPO). Absendung genügt nicht.",
+    "normen": [
+     "§ 4 Satz 1 KSchG",
+     "§ 167 ZPO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__167.html",
+    "strittig": false,
+    "zitat": "tritt diese Wirkung bereits mit Eingang des Antrags oder der Erklärung ein, wenn die Zustellung demnächst erfolgt.",
+    "hinweis": "Die BAG-Urteile 2 AZR 483/14 und 2 AZR 156/24 stellen auf den Klageeingang ab. Eine ausdrückliche BAG-Aussage zur Anwendung von § 167 ZPO auf § 4 KSchG habe ich nicht gelesen (offene Punkte)."
+   },
+   {
+    "id": "KS-06",
+    "thema": "KSchG 4 Satz 4: Fristbeginn bei behördlicher Zustimmung",
+    "regel": "Bedarf die Kündigung der Zustimmung einer Behörde (z. B. Integrationsamt, Mutterschutz), beginnt die Dreiwochenfrist erst mit der Bekanntgabe der Behördenentscheidung an den Arbeitnehmer. Das gilt nicht, wenn der Arbeitgeber beim Zugang der Kündigung vom Sonderkündigungsschutz keine Kenntnis hatte.",
+    "normen": [
+     "§ 4 Satz 4 KSchG",
+     "§ 17 Abs. 1 MuSchG"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-156-24/",
+    "strittig": false,
+    "zitat": "läuft die Frist zur Anrufung des Arbeitsgerichts erst von der Bekanntgabe",
+    "hinweis": "BAG 03.04.2025 – 2 AZR 156/24, Leitsatz 1 (sinngemäß wiedergegeben vom BAG-Seitentext). Der Wortlaut von § 4 Satz 4 stammt aus gesetze-im-internet.de."
+   },
+   {
+    "id": "KS-07",
+    "thema": "KSchG 5: nachträgliche Zulassung der verspäteten Klage",
+    "regel": "War der Arbeitnehmer trotz aller zumutbaren Sorgfalt verhindert, die Klage innerhalb von drei Wochen zu erheben, ist die Klage auf Antrag nachträglich zuzulassen. Dasselbe gilt, wenn eine Frau von ihrer Schwangerschaft aus einem nicht zu vertretenden Grund erst nach Ablauf der Frist Kenntnis erlangt. Der Antrag ist nur innerhalb von zwei Wochen nach Behebung des Hindernisses zulässig und nach Ablauf von sechs Monaten, vom Ende der versäumten Frist an gerechnet, nicht mehr.",
+    "normen": [
+     "§ 5 Abs. 1 KSchG",
+     "§ 5 Abs. 3 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__5.html",
+    "strittig": false,
+    "zitat": "Der Antrag ist nur innerhalb von zwei Wochen nach Behebung des Hindernisses zulässig.",
+    "hinweis": "BAG 03.04.2025 – 2 AZR 156/24, Leitsatz 2: bei unverschuldeter späterer Kenntnis der Schwangerschaft ist die verspätete Klage auf fristgerechten Antrag nach § 5 Abs. 1 Satz 2 nachträglich zuzulassen."
+   },
+   {
+    "id": "KS-08",
+    "thema": "KSchG 7: Folge der versäumten Klagefrist",
+    "regel": "Wird die Rechtsunwirksamkeit der Kündigung nicht rechtzeitig geltend gemacht (§ 4 Satz 1, §§ 5, 6), gilt die Kündigung als von Anfang an rechtswirksam. Ein Vorbehalt nach § 2 erlischt.",
+    "normen": [
+     "§ 7 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__7.html",
+    "strittig": false,
+    "zitat": "so gilt die Kündigung als von Anfang an rechtswirksam",
+    "hinweis": "Mit der Fristversäumnis ist auch ein Fehler in der Kündigungsfrist selbst nicht mehr über § 4 anzugreifen; zur Frage, ob eine zu kurze Frist außerhalb der Klagefrist gerügt werden kann, siehe BAG 15.12.2005 – 2 AZR 148/05 (nur über Suchtreffer bekannt, nicht gelesen)."
+   },
+   {
+    "id": "KS-09",
+    "thema": "KSchG 13 Abs. 1 Satz 2: Klagefrist gilt auch für außerordentliche Kündigung",
+    "regel": "Die Rechtsunwirksamkeit einer außerordentlichen (fristlosen) Kündigung kann nur nach Maßgabe von § 4 Satz 1 und der §§ 5 bis 7 geltend gemacht werden, also ebenfalls innerhalb von drei Wochen nach Zugang.",
+    "normen": [
+     "§ 13 Abs. 1 Satz 2 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__13.html",
+    "strittig": false,
+    "zitat": "nur nach Maßgabe des § 4 Satz 1 und der §§ 5 bis 7 geltend gemacht werden.",
+    "hinweis": "Verknüpft mit FR-15 (zwei Wochen für die Erklärung nach § 626 Abs. 2, dort gilt § 193)."
+   },
+   {
+    "id": "KS-10",
+    "thema": "KSchG 6: verlängerte Anrufungsfrist",
+    "regel": "Hat der Arbeitnehmer innerhalb von drei Wochen nach Zugang im Klagewege geltend gemacht, dass keine rechtswirksame Kündigung vorliegt, kann er sich in diesem Verfahren bis zum Schluss der mündlichen Verhandlung erster Instanz auch auf innerhalb der Klagefrist nicht geltend gemachte Gründe berufen.",
+    "normen": [
+     "§ 6 KSchG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__6.html",
+    "strittig": false,
+    "zitat": "bis zum Schluss der mündlichen Verhandlung erster Instanz",
+    "hinweis": "Nur für Aufgaben nötig, die Klagegründe statt Fristende prüfen."
+   },
+   {
+    "id": "MI-01",
+    "thema": "BGB 573c Abs. 1 Satz 1: Wohnraum, Kündigung bis zum dritten Werktag zum Ablauf des übernächsten Monats",
+    "regel": "Die ordentliche Kündigung ist spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats zulässig (Grundfrist drei Monate; für den Mieter immer, für den Vermieter bis zur Verlängerung nach Satz 2). Algorithmus: M = Monat des Zugangs; W3 = dritter Werktag in M, gezählt ab dem 1. des Monats. Geht die Kündigung am oder vor W3 zu, endet das Mietverhältnis mit Ablauf des letzten Tages von M+2; sonst mit Ablauf des letzten Tages von M+3. Beispiel (gerechnet): Januar 2026: 01.01. Feiertag, 1. Werktag Fr 02.01., 2. Werktag Sa 03.01., 3. Werktag Mo 05.01.2026: Zugang bis 05.01. bedeutet Mietende 31.03.2026.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 1 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__573c.html",
+    "strittig": false,
+    "zitat": "spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats zulässig.",
+    "gilt_ab": "2001-09-01 (Mietrechtsreform; vgl. BGH VIII ZR 206/04 zu Art. 229 § 3 Abs. 10 EGBGB)",
+    "hinweis": "Das Mietende (Ablauf des letzten Tages von M+2) wird nicht nach § 193 BGB verschoben (FR-13). Welche Feiertage (Land) für den Werktag-Begriff gelten, ist nicht belegt (offene Punkte). Gewerberaum: § 580a (MI-09)."
+   },
+   {
+    "id": "MI-02",
+    "thema": "Mietkündigung: es kommt auf den Zugang an",
+    "regel": "Für die Rechtzeitigkeit der Kündigung nach § 573c Abs. 1 zählt der Zugang beim Empfänger (§ 130 Abs. 1 Satz 1 BGB), nicht die Absendung oder das Datum auf dem Schreiben.",
+    "normen": [
+     "§ 573c Abs. 1 BGB",
+     "§ 130 Abs. 1 Satz 1 BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2005,996",
+    "strittig": false,
+    "zitat": "auf den Zugang der Kündigungserklärung (§ 130 Abs. 1 Satz 1 BGB) an",
+    "hinweis": "BGH 27.04.2005 – VIII ZR 206/04, Rn. 22. Schreiben vom 03.06.2002 (Montag), zugegangen Mittwoch 05.06.2002: der dritte Werktag war Dienstag 04.06., also einen Tag zu spät."
+   },
+   {
+    "id": "MI-03",
+    "thema": "Begriff „Werktag“ bei der Mietkündigung",
+    "regel": "Werktag ist jeder Kalendertag, der kein Sonn- und kein gesetzlicher Feiertag ist, also Montag bis Samstag außer Feiertage. Der Begriff ist im Mietrecht nicht anders zu verstehen als sonst im Gesetz und im allgemeinen Sprachgebrauch.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 1 BGB",
+     "§ 3 Abs. 2 BUrlG"
+    ],
+    "quelle_url": "https://lexetius.com/2005,996",
+    "strittig": false,
+    "zitat": "Als Werktage gelten alle Kalendertage, die nicht Sonn- oder gesetzliche Feiertage sind. (§ 3 Abs. 2 BUrlG)",
+    "hinweis": "BGH 27.04.2005 – VIII ZR 206/04, Rn. 27 f. (zieht § 3 Abs. 2 BUrlG heran); Wortlaut BUrlG aus https://www.gesetze-im-internet.de/burlg/__3.html gelesen. Ob dabei die Feiertage am Wohnort des Empfängers oder am Absendeort gelten, ist nicht belegt."
+   },
+   {
+    "id": "MI-04",
+    "thema": "Samstag zählt bei der Karenzzeit von drei Werktagen mit (BGH 2005)",
+    "regel": "Bei der Berechnung der Karenzzeit von drei Werktagen für die Kündigung eines Wohnraummietvertrags ist der Samstag mitzuzählen, wenn nicht der letzte Tag der Karenzfrist auf ihn fällt. Auch der Samstag, der der 1. des Monats ist, zählt als erster Werktag. Der Gleichstellung des Samstags mit dem Sonntag in § 193 BGB hat der BGH nicht zugestimmt, soweit es um den Werktag-Begriff geht.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 1 BGB",
+     "§ 193 BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2005,996",
+    "strittig": false,
+    "zitat": "der Sonnabend als Werktag mitzuzählen, wenn nicht der letzte Tag der Karenzfrist auf diesen Tag fällt.",
+    "hinweis": "BGH 27.04.2005 – VIII ZR 206/04 (Leitsatz, Volltext gelesen). Fall: Juni 2002, 01.06. Samstag = 1. Werktag, 03.06. Montag = 2., 04.06. Dienstag = 3. Werktag. Amtliche PDF: https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2004/VIII_ZR_206-04.pdf?__blob=publicationFile&v=1 (nicht ausgelesen)."
+   },
+   {
+    "id": "MI-05",
+    "thema": "Samstag als dritter (letzter) Werktag der Karenzzeit: Verschiebung auf Montag?",
+    "regel": "Fällt der dritte Werktag auf einen Samstag, ist offen und umstritten, ob die Karenzzeit nach § 193 BGB bis zum nächsten Werktag (Montag, bzw. Dienstag nach einem Feiertag) verlängert wird. Der BGH hat dies 2005 ausdrücklich nicht entschieden. Das LG Berlin hat § 193 BGB angewandt (Zugang am Dienstag nach Ostern noch rechtzeitig). Sichere Annahme für Aufgaben: Solche Fälle entweder vermeiden oder mit Zusatz „strittig“ führen.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 1 BGB",
+     "§ 193 BGB"
+    ],
+    "quelle_url": "https://lexetius.com/2005,996",
+    "strittig": true,
+    "zitat": "Keiner Entscheidung bedarf die Frage, ob die Karenzzeit sich nach § 193 BGB verlängert",
+    "hinweis": "BGH VIII ZR 206/04, Rn. 24 nennt als Ja-Stimmen LG Aachen WuM 2004, 32, LG Wuppertal NJW-RR 1993, 1232, Erman/Palm, Palandt/Weidenkaff und als Nein-Stimme Wolf/Eckert/Ball. LG Berlin 22.02.2017 – 65 S 395/16 (über https://www.iww.de/mk/nebengebiete/kuendigungsfrist-ist-der-letzte-tag-der-frist-ein-samstag-gilt-der-naechste-werktag-f106423 gelesen): § 193 BGB angewendet. Eine spätere BGH-Entscheidung habe ich nicht gefunden. Gegenargument: BGH III ZR 172/04 verneint § 193 bei Kündigungsfristen (hier aber Karenzzeit für die Erklärung)."
+   },
+   {
+    "id": "MI-06",
+    "thema": "Abgrenzung: Samstag ist bei der Mietzahlung (BGB 556b Abs. 1) kein Werktag",
+    "regel": "Für die Frist zur Zahlung der Miete „bis zum dritten Werktag“ zählt der Samstag nicht mit. Diese Regel nicht auf die Kündigungs-Karenzzeit übertragen: Bei § 573c zählt der Samstag, weil eine Kündigung auch samstags per Post zugestellt werden kann, eine Überweisung aber nicht.",
+    "normen": [
+     "§ 556b Abs. 1 BGB",
+     "§ 573c Abs. 1 Satz 1 BGB"
+    ],
+    "quelle_url": "https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2010/2010144.html",
+    "strittig": false,
+    "zitat": "Im Gegensatz zur Zahlungsfrist verkürzt sich daher die Karenzzeit für die Kündigung nicht",
+    "hinweis": "BGH 13.07.2010 – VIII ZR 129/09 und VIII ZR 291/09 (Pressemitteilung Nr. 144/2010, gelesen). Der Senat sieht keinen Widerspruch zu VIII ZR 206/04. Das Aktenzeichen VIII ZR 300/09 aus dem Auftrag ist nicht einschlägig (siehe offene Punkte)."
+   },
+   {
+    "id": "MI-07",
+    "thema": "BGB 573c Abs. 1 Satz 2: Verlängerung der Vermieterfrist nach 5 und 8 Jahren",
+    "regel": "Die Kündigungsfrist für den Vermieter verlängert sich nach fünf und nach acht Jahren seit der Überlassung des Wohnraums jeweils um drei Monate: bis 5 Jahre 3 Monate, ab 5 Jahren 6 Monate, ab 8 Jahren 9 Monate. Mit rechtzeitigem Zugang (dritter Werktag) endet das Verhältnis mit Ablauf des letzten Tages von M+2, M+5 bzw. M+8. Für den Mieter bleibt es bei drei Monaten.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 2 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__573c.html",
+    "strittig": false,
+    "zitat": "verlängert sich nach fünf und acht Jahren seit der Überlassung des Wohnraums um jeweils drei Monate.",
+    "hinweis": "Stichtag für die Dauer seit Überlassung ist nach der Literatur der Zugang der Kündigung; eine ausdrückliche BGH-Aussage dazu habe ich nicht gelesen. BGH 24.06.2014 – VIII ZR 10/14 (https://urteile-gesetze.de/rechtsprechung/viii-zr-10-14) rechnet vom Kündigungsschreiben, sagt aber nichts Ausdrückliches zum Stichtag. Berechnung der „fünf Jahre“ ab Überlassung nach § 187/188 BGB (Starttag Überlassung), nicht belegt."
+   },
+   {
+    "id": "MI-08",
+    "thema": "Anrechnung früherer Überlassung aus anderem Rechtsgrund",
+    "regel": "Ob für die Staffel (5 und 8 Jahre) auch eine frühere Überlassung des Wohnraums aus einem anderen Rechtsgrund (z. B. unentgeltliches Wohnen als Familienangehöriger, Nießbrauch) mitzählt, ist in Rechtsprechung und Literatur umstritten; die überwiegende Ansicht rechnet unabhängig vom Rechtsgrund mit. Der BGH hat die Grundsatzfrage offen gelassen.",
+    "normen": [
+     "§ 573c Abs. 1 Satz 2 BGB"
+    ],
+    "quelle_url": "https://urteile-gesetze.de/rechtsprechung/viii-zr-10-14",
+    "strittig": true,
+    "zitat": "mit der Überlassung allein auf die tatsächlichen Besitzverhältnisse ab",
+    "hinweis": "BGH 24.06.2014 – VIII ZR 10/14, Rn. 19 bis 23: im Streitfall wurde die frühere unentgeltliche Familiennutzung nicht angerechnet. Für erfundene Aufgaben: Staffel nur mit klarem Überlassungsdatum rechnen."
+   },
+   {
+    "id": "MI-09",
+    "thema": "BGB 573c Abs. 2 bis 4, § 549 Abs. 2 Nr. 2",
+    "regel": "Abs. 2: Bei Wohnraum nur zum vorübergehenden Gebrauch kann eine kürzere Frist vereinbart werden. Abs. 3: Bei Wohnraum nach § 549 Abs. 2 Nr. 2 (Teil der vom Vermieter selbst bewohnten Wohnung, überwiegend vom Vermieter möbliert, nicht zum dauernden Gebrauch mit Familie überlassen) ist die Kündigung spätestens am 15. eines Monats zum Ablauf dieses Monats zulässig. Abs. 4: Eine zum Nachteil des Mieters von Abs. 1 oder 3 abweichende Vereinbarung ist unwirksam.",
+    "normen": [
+     "§ 573c Abs. 2 BGB",
+     "§ 573c Abs. 3 BGB",
+     "§ 573c Abs. 4 BGB",
+     "§ 549 Abs. 2 Nr. 2 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__573c.html",
+    "strittig": false,
+    "zitat": "spätestens am 15. eines Monats zum Ablauf dieses Monats zulässig.",
+    "hinweis": "Wortlaut aus gesetze-im-internet.de gelesen; § 549 Abs. 2 Nr. 2 dort ebenfalls. Beim 15. als Stichtag gilt § 193 BGB nicht (FR-13); ob die Karenzzeit am 15. bei Wochenende verschoben wird, ist wie MI-05 nicht belegt."
+   },
+   {
+    "id": "MI-10",
+    "thema": "BGB 580a: Fristen bei Grundstücken, Geschäftsräumen und beweglichen Sachen (Zusatz)",
+    "regel": "Nicht Wohnraum: Bei Miete nach Monaten bemessen ist die Kündigung bei Grundstücken und Räumen, die keine Geschäftsräume sind, spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats zulässig (bei gewerblich genutzten unbebauten Grundstücken nur zum Ablauf eines Kalendervierteljahrs). Bei Geschäftsräumen: spätestens am dritten Werktag eines Kalendervierteljahres zum Ablauf des nächsten Kalendervierteljahrs. Bewegliche Sachen: spätestens am dritten Tag vor dem Tag, mit dessen Ablauf das Verhältnis enden soll.",
+    "normen": [
+     "§ 580a Abs. 1 Nr. 3 BGB",
+     "§ 580a Abs. 2 BGB",
+     "§ 580a Abs. 3 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__580a.html",
+    "strittig": false,
+    "zitat": "spätestens am dritten Werktag eines Kalendervierteljahres zum Ablauf des nächsten Kalendervierteljahrs",
+    "hinweis": "Nur der Wortlaut ist gelesen. Ob die Samstags-Rechtsprechung (VIII ZR 206/04, Wohnraum) für § 580a übernommen wird, habe ich nicht geprüft; beim Wortlaut „dritter Werktag“ spricht der Sprachgebrauch dafür. Nicht in der Anfrage, aber für Verträge nützlich."
+   },
+   {
+    "id": "MI-11",
+    "thema": "BGB 568 Abs. 1: Schriftform der Mietkündigung",
+    "regel": "Die Kündigung des Mietverhältnisses (Wohnraum) bedarf der schriftlichen Form (eigenhändige Unterschrift, § 126 Abs. 1 BGB). Die Gründe für ein berechtigtes Interesse des Vermieters sind im Kündigungsschreiben anzugeben (§ 573 Abs. 3).",
+    "normen": [
+     "§ 568 Abs. 1 BGB",
+     "§ 573 Abs. 3 BGB",
+     "§ 126 Abs. 1 BGB"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__568.html",
+    "strittig": false,
+    "zitat": "Die Kündigung des Mietverhältnisses bedarf der schriftlichen Form.",
+    "hinweis": "Zusatz zur Anfrage; nur Wortlaut gelesen. Nötig, damit die Aufgabe „Frist“ nicht mit „Kündigung wirksam“ verwechselt wird."
+   },
+   {
+    "id": "ZU-01",
+    "thema": "BGB 130 Abs. 1: Zugang einer Kündigung, Einwurf in den Hausbriefkasten",
+    "regel": "Eine Willenserklärung unter Abwesenden wird in dem Zeitpunkt wirksam, in dem sie dem Empfänger zugeht. Ein in den Hausbriefkasten eingeworfenes Schreiben geht zu, sobald nach der Verkehrsanschauung mit der nächsten Leerung zu rechnen ist; maßgeblich sind die allgemeinen Verhältnisse, nicht die Gewohnheiten des Empfängers. Eine feste Leerungszeit (z. B. 17 Uhr) darf nicht pauschal unterstellt werden.",
+    "normen": [
+     "§ 130 Abs. 1 BGB"
+    ],
+    "quelle_url": "https://www.bundesarbeitsgericht.de/entscheidung/2-azr-111-19/",
+    "strittig": false,
+    "zitat": "Dabei ist nicht auf die individuellen Verhältnisse des Empfängers abzustellen.",
+    "hinweis": "BAG 22.08.2019 – 2 AZR 111/19 (Seitentext gelesen); ebenso laut Suchtreffer BAG 20.06.2024 – 2 AZR 213/23 (nicht gelesen). Der Zugangstag ist Fristbeginn-Ereignis für KS-02 und Rückrechnungsanker für AR-01, AR-04, MI-01. Einwurf am Samstag: keine einschlägige Entscheidung gefunden (offene Punkte)."
+   },
+   {
+    "id": "BE-01",
+    "thema": "VwVfG 31: Fristen in Bescheiden (Zusatz zur Anfrage)",
+    "regel": "Für Fristen im Verwaltungsverfahren gelten die §§ 187 bis 193 BGB entsprechend. Eine von der Behörde gesetzte Frist beginnt mit dem Tag nach der Bekanntgabe der Frist. Fällt das Fristende auf Sonntag, gesetzlichen Feiertag oder Sonnabend, endet die Frist mit Ablauf des nächsten Werktags; das gilt nicht, wenn dem Betroffenen unter Hinweis auf diese Vorschrift ein bestimmter Tag als Ende mitgeteilt wurde. Ein von der Behörde gesetzter Termin ist auch an Sonntag, Feiertag oder Sonnabend einzuhalten. Stundenfristen zählen Sonn-, Feiertage und Sonnabende mit.",
+    "normen": [
+     "§ 31 Abs. 1 VwVfG",
+     "§ 31 Abs. 2 VwVfG",
+     "§ 31 Abs. 3 VwVfG",
+     "§ 31 Abs. 5 VwVfG",
+     "§ 31 Abs. 6 VwVfG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__31.html",
+    "strittig": false,
+    "zitat": "so endet die Frist mit dem Ablauf des nächstfolgenden Werktags.",
+    "hinweis": "Wortlaut aus gesetze-im-internet.de gelesen. Entsprechend § 108 AO für Steuerbescheide. Welches Bundesland für den „gesetzlichen Feiertag“ zählt (Sitz der Behörde oder Wohnort), habe ich nicht belegt."
+   },
+   {
+    "id": "BE-02",
+    "thema": "VwVfG 41 Abs. 2: Bekanntgabefiktion bei Post, jetzt vierter Tag",
+    "regel": "Ein schriftlicher Verwaltungsakt, der im Inland durch die Post übermittelt wird, gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (früher: dritter Tag). Gilt nicht, wenn er nicht oder später zugegangen ist; im Zweifel muss die Behörde Zugang und Zeitpunkt nachweisen. Die Frist für Widerspruch oder Einspruch läuft ab diesem fingierten Bekanntgabetag (Tag der Bekanntgabe zählt nicht, § 187 Abs. 1 BGB).",
+    "normen": [
+     "§ 41 Abs. 2 VwVfG",
+     "§ 122 Abs. 2 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__41.html",
+    "strittig": false,
+    "zitat": "gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben.",
+    "gilt_ab": "2025-01-01 (laut Sekundärquellen, für ab dann zur Post gegebene Verwaltungsakte; PostModG verkündet 18.07.2024, BGBl. 2024 I Nr. 236)",
+    "hinweis": "Wortlaut „vierten Tag“ aus der aktuellen Fassung von VwVfG § 41 und AO § 122 Abs. 2 (gelesen). Der Anwendungsstichtag stammt nur aus Sekundärquellen (NWB, Haufe, Ecovis); das BGBl.-PDF war nicht lesbar. Falle für Modelle mit altem Wissen: die frühere Drei-Tage-Regel."
+   },
+   {
+    "id": "BE-03",
+    "thema": "Rechtsbehelfsfristen gegen Bescheide: Monatsfristen (Zusatz zur Anfrage)",
+    "regel": "Widerspruch (§ 70 Abs. 1 VwGO), Anfechtungsklage ohne Vorverfahren (§ 74 Abs. 1 VwGO) und Einspruch gegen Steuerbescheid (§ 355 Abs. 1 AO) sind innerhalb eines Monats nach Bekanntgabe einzulegen. Berechnung: Monatsfrist nach § 187 Abs. 1, § 188 Abs. 2 und 3 BGB; für die VwGO verweist § 57 Abs. 2 VwGO auf § 222 ZPO (Verschiebung bei Samstag, Sonntag, Feiertag), für die AO gilt § 108 Abs. 3 AO.",
+    "normen": [
+     "§ 70 Abs. 1 VwGO",
+     "§ 74 Abs. 1 VwGO",
+     "§ 57 Abs. 2 VwGO",
+     "§ 355 Abs. 1 AO",
+     "§ 108 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwgo/__70.html",
+    "strittig": false,
+    "zitat": "innerhalb eines Monats, nachdem der Verwaltungsakt dem Beschwerten bekanntgegeben worden ist",
+    "hinweis": "Nur Wortlaut gelesen (gesetze-im-internet.de). Weitere Fristen (Rechtsbehelfsbelehrung fehlt/falsch: ein Jahr, § 58 Abs. 2 VwGO), Landesrecht und Sozialrecht (SGG) nicht geprüft."
+   }
+  ],
+  "offene_punkte": [
+   "Aktenzeichen VIII ZR 300/09 aus dem Auftrag: Laut Berliner Mieterverein (https://www.berliner-mieterverein.de/category/recht/bgh/year/2010) ist das BGH 10.11.2010 und betrifft „Schriftform bei Mieterhöhung“, nicht den Samstag als Werktag. Das ist nur eine Sekundärliste, den Volltext habe ich nicht gelesen. Die einschlägigen Samstags-Urteile sind VIII ZR 206/04 (27.04.2005, Kündigung § 573c) und VIII ZR 129/09 sowie VIII ZR 291/09 (beide 13.07.2010, Mietzahlung § 556b). Vermutlich Verwechslung der Nummer, noch zu klären.",
+   "Samstag als dritter (letzter) Werktag der Karenzzeit nach § 573c: BGH hat 2005 ausdrücklich offen gelassen, ob § 193 BGB auf Montag verlängert (VIII ZR 206/04, Rn. 24). Eine spätere BGH-Entscheidung habe ich nicht gefunden (breite Suche, nur Ratgeber und LG Berlin 65 S 395/16 vom 22.02.2017 für die Verlängerung). Für den Benchmark: Fälle mit „dritter Werktag = Samstag“ als strittig markieren oder weglassen.",
+   "Welche Feiertage zählen (Bundesland): Für § 193 BGB gilt der Erklärungs- oder Leistungsort, für § 222 Abs. 2 ZPO der Ort des Gerichts (BAG 8 AZN 808/11 betrifft Rechtsmittelfrist), für den „Werktag“ in § 573c und für § 31 VwVfG ist der maßgebliche Ort nicht belegt. Es braucht einen Feiertagskalender je Bundesland; die Quelle (Landesgesetze) ist noch nicht geklärt.",
+   "„Kündigung zum 15.“ = Ablauf des 15. (24:00 Uhr)? Dazu habe ich weder ein Urteil noch eine Kommentarstelle gefunden. Annahme steht in AR-01. Beleg bei ErfK, KR oder Staudinger zu § 622 nachholen.",
+   "Rechenkette „Zugang + Monatsfrist, Termin = nächster Monatsletzter“ (AR-04) und „Zugang + 28 Tage, nächster Termin 15. oder Monatsende“ (AR-01) sind aus §§ 187, 188 und dem Wortlaut von § 622 hergeleitet, nicht durch ein Einzelurteil bestätigt. Beim Bau mit zweiter, unabhängiger Implementierung gegenprüfen.",
+   "§ 188 Abs. 3 BGB spricht nur von „nach Monaten bestimmten“ Fristen; Behandlung von Jahresfristen ab dem 29.02. (z. B. 29.02.2024 plus 1 Jahr) habe ich nicht belegt.",
+   "§ 190 BGB / § 224 Abs. 3 ZPO: Ob die verlängerte Frist am nominellen Ablauftag oder am nach § 222 Abs. 2 ZPO verschobenen Werktag anknüpft, nicht geprüft.",
+   "Stichtag und Berechnung der Dauer „seit Überlassung“ bei § 573c Abs. 1 Satz 2 (Zugang der Kündigung? Starttag?) nur aus der Literatur über Suchtreffer bekannt; BGH VIII ZR 10/14 äußert sich nicht ausdrücklich. Anrechnung früherer Überlassung aus anderem Rechtsgrund ist strittig (MI-08).",
+   "§ 167 ZPO (Rückwirkung bei „demnächst“ erfolgender Zustellung) für die Klagefrist nach § 4 KSchG: BAG-Aussage nicht gelesen. Ebenso nicht geprüft: Beginn der Klagefrist bei formunwirksamer, z. B. nur mündlicher Kündigung (§ 4 spricht von „schriftlicher Kündigung“, § 623 BGB).",
+   "Zugang am Samstag, Sonntag oder Feiertag (Briefkasteneinwurf): keine BAG- oder BGH-Entscheidung zu genau diesem Fall gefunden. Für den Benchmark Zugangsdaten auf Werktage legen oder den Zugang in der Aufgabe ausdrücklich nennen (ZU-01).",
+   "BAG 05.03.1970 – 2 AZR 112/69 (BAGE 22, 304) und BAG 03.10.1985 – 2 AZR 601/84 habe ich nicht im Volltext gelesen. Die Inhalte sind über BGH III ZR 172/04 und BAG 2 AZR 1057/12 belegt. BGH VII ZR 186/71 (BGHZ 59, 265) nur über Zitate bekannt.",
+   "Aufhebung von § 622 Abs. 2 Satz 2 BGB (Qualifizierungschancengesetz, Art. 4d): belegt über Bundestags-Drucksache 19/6146 und die aktuelle Gesetzesfassung (ohne Satz 2); BGBl. I 2018 S. 2651 nicht direkt geprüft. BAG 2 AZR 714/08 (Kücükdeveci-Folgeentscheidung) nur über Suchtreffer bekannt, das Datum ist dort uneinheitlich (08./09.09.2010).",
+   "Bekanntgabefiktion „vierter Tag“ (VwVfG § 41, AO § 122): Wortlaut aus gesetze-im-internet.de gelesen. Das Anwendungsdatum (Verwaltungsakte, die ab 01.01.2025 zur Post gegeben werden) stammt nur aus Sekundärquellen; BGBl. 2024 I Nr. 236 war als PDF nicht lesbar. Vor Nutzung im Benchmark im Bundesgesetzblatt oder in Art. 97 § 1 EGAO prüfen.",
+   "BGH-Urteile VIII ZR 129/09 und VIII ZR 291/09 (13.07.2010) habe ich nur über die BGH-Pressemitteilung Nr. 144/2010 und Sekundärquellen belegt; die Volltext-PDFs des BGH ließen sich nicht auslesen. Ebenso ist die amtliche PDF von VIII ZR 206/04 nicht ausgelesen worden (Volltext über lexetius.com gelesen, eine private Wiedergabe der Gründe).",
+   "Die Gesetzeswortlaute habe ich zusätzlich direkt als HTML von gesetze-im-internet.de gelesen (nur auf dem Bildschirm, keine Dateien), weil die WebFetch-Zusammenfassungen teils ungenau waren (z. B. erfundener „Satz 3“ bei § 573c, fehlender Hinweis zu § 622 Abs. 2 Satz 2). rechinformationen.bund.de wurde nicht als Gegenprobe herangezogen.",
+   "Nicht geprüft und für die Aufgabenklasse „Fristen“ noch zu klären: Sozialrecht (SGG, SGB X, Widerspruch ein Monat), Verjährung (§§ 195, 199 BGB, Jahresende-Regel), Widerrufsfristen (§ 355 BGB, 14 Tage), Mahn- und Zahlungsfristen (§ 286 BGB), Kündigung von Dauerschuldverhältnissen (Verbraucherverträge, § 309 Nr. 9 BGB), Tarifverträge und Sonderkündigungsschutz (Schwerbehinderte, Mutterschutz, Elternzeit).",
+   "Hinweis Weiterverwendung: Alle Texte sind Gesetzes- und Urteilswortlaute (amtliche Werke) oder kurze Zitate; die Regelsätze sind keine Rechtsberatung. Sollwerte im Benchmark nur aus Python-Code erzeugen und in einem Fall mit Zugang am Wochenende, Landesfeiertag oder Schaltjahr jeweils durch eine zweite Person prüfen lassen."
+  ]
+ },
+ {
+  "key": "verfahren",
+  "regeln": [
+   {
+    "id": "A-01",
+    "thema": "PostModG: Fundstelle und Inkrafttreten der Vier-Tage-Fiktion",
+    "regel": "Die Verlängerung der Bekanntgabe- und Zustellungsfiktion von drei auf vier Tage steht im Gesetz zur Modernisierung des Postrechts (PostModG) vom 15.07.2024, BGBl. 2024 I Nr. 236 (verkündet 18.07.2024; Berichtigung BGBl. 2024 I Nr. 331). Art. 2 ändert VwVfG (§ 15 S. 2, § 41 Abs. 2 S. 1 und 2), Art. 3 VwZG (§ 4 Abs. 2 S. 2, § 5 Abs. 7 S. 2, § 5a Abs. 4 S. 1), Art. 20 AO (§ 122 Abs. 2 Nr. 1 und Abs. 2a, § 122a Abs. 4, § 123 S. 2), Art. 21 EGAO (Art. 97 § 1 Abs. 15), Art. 33 SGB X (§ 14 S. 2, § 37 Abs. 2 S. 1 und 2, Abs. 2a S. 4). Nach Art. 43 Abs. 2 treten Art. 2 bis 4, 20, 21 und 33 am 01.01.2025 in Kraft (das Gesetz im Übrigen am Tag nach der Verkündung, 19.07.2024).",
+    "normen": [
+     "PostModG Art. 2, 3, 20, 21, 33, 43",
+     "BGBl. 2024 I Nr. 236"
+    ],
+    "quelle_url": "https://www.recht.bund.de/bgbl/1/2024/236/VO.html",
+    "zitat": "Dieses Gesetz tritt vorbehaltlich des Absatzes 2 am Tag nach seiner Verkündung in Kraft.",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Artikelzuordnung und Wortlaut der Änderungsanweisungen geprüft in der Bundestags-Beschlussempfehlung Drs. 20/11817 (12.06.2024, Bundestag beschloss am 13.06.2024, Bundesrat stimmte am 05.07.2024 zu; Daten aus Sekundärquellen) und in den Konsolidierungsseiten von buzer.de zu BGBl. 2024 I Nr. 236. Der Volltext des BGBl.-PDF war über WebFetch nicht lesbar. Die Berichtigung Nr. 331 betrifft laut recht.bund.de/buzer die Verweise in Art. 43 Abs. 2 auf Art. 34 und 36 Nr. 5, nicht die hier relevanten Artikel.",
+    "strittig": false
+   },
+   {
+    "id": "A-02",
+    "thema": "Vier Kalendertage, nicht Werktage (Gesetzgebungsverlauf)",
+    "regel": "Gezählt werden vier Kalendertage ab Aufgabe zur Post (Aufgabetag selbst zählt nicht mit, § 187 Abs. 1 BGB). Der Regierungsentwurf (Drs. 20/10283) wollte noch den 'vierten Werktag' einführen, der Wirtschaftsausschuss und der Bundestag haben das verworfen. Samstage, Sonntage und Feiertage zählen also bei der Tageszählung mit. Beispiel BFH: Aufgabe Freitag 15.06.2018, Bekanntgabe nach der damaligen Dreitagesregel Montag 18.06.2018.",
+    "normen": [
+     "§ 41 Abs. 2 VwVfG",
+     "§ 37 Abs. 2 SGB X",
+     "§ 122 Abs. 2 AO",
+     "§ 187 Abs. 1 BGB"
+    ],
+    "quelle_url": "https://dserver.bundestag.de/btd/20/118/2011817.pdf",
+    "zitat": "auf vier Kalendertage umgestellt werden",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Drs. 20/11817 S. 140 bis 142 (Begründung zu Art. 2, 20, 33). Der Entwurf von Art. 20 mit dem Text 'vierten Werktag' und einem neuen § 122 Abs. 2b AO ('§ 108 Abs. 3 ist nicht anzuwenden') wurde im Ausschuss gestrichen (Synopse S. 117: 'entfällt'). Wer Altquellen vom Februar bis Juni 2024 liest, findet teils noch 'Werktag'.",
+    "strittig": false
+   },
+   {
+    "id": "A-03",
+    "thema": "Bekanntgabefiktion VwVfG bei Postversand im Inland",
+    "regel": "Ein schriftlicher Verwaltungsakt, der im Inland durch die Post übermittelt wird, gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (Aufgabetag + 4 Kalendertage). Bis 31.12.2024 galt der dritte Tag. Der Wortlaut regelt die Postfiktion nur für das Inland; für Postversand ins Ausland enthält § 41 Abs. 2 VwVfG keine Fiktion.",
+    "normen": [
+     "§ 41 Abs. 2 S. 1 VwVfG",
+     "Art. 2 Nr. 2 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__41.html",
+    "zitat": "gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Gilt für Bundesbehörden. Für Landesbehörden gilt das jeweilige Landes-VwVfG (siehe A-13). Zum Wochenendproblem siehe B-05.",
+    "strittig": false
+   },
+   {
+    "id": "A-04",
+    "thema": "Bekanntgabefiktion VwVfG bei elektronischer Übermittlung",
+    "regel": "Ein Verwaltungsakt, der im Inland oder in das Ausland elektronisch übermittelt wird, gilt am vierten Tag nach der Absendung als bekannt gegeben (zuvor dritter Tag). Gleicher Zeitpunkt wie bei der Post, damit der Adressat bei elektronischer Bekanntgabe kein früheres Fristende hat.",
+    "normen": [
+     "§ 41 Abs. 2 S. 2 VwVfG",
+     "Art. 2 Nr. 2 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__41.html",
+    "zitat": "Ein Verwaltungsakt, der im Inland oder in das Ausland elektronisch übermittelt wird, gilt am vierten Tag",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Begründung zum Gleichlauf: Drs. 20/11817 S. 140 f.",
+    "strittig": false
+   },
+   {
+    "id": "A-05",
+    "thema": "Bekanntgabefiktion SGB X",
+    "regel": "Ein schriftlicher Verwaltungsakt, der im Inland durch die Post übermittelt wird, gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben (§ 37 Abs. 2 S. 1 SGB X); bei elektronischer Übermittlung am vierten Tag nach der Absendung (S. 2). Auch hier Kalendertage. § 14 S. 2 SGB X (Zustellungsfiktion elektronischer Dokumente) wurde ebenfalls auf den vierten Tag umgestellt.",
+    "normen": [
+     "§ 37 Abs. 2 S. 1 und 2 SGB X",
+     "§ 14 S. 2 SGB X",
+     "Art. 33 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_10/__37.html",
+    "zitat": "gilt am vierten Tag nach der Aufgabe zur Post als bekannt gegeben",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Das Wort 'im Inland' stand in der Zusammenfassung der abgerufenen Seite, nicht im wörtlichen Zitat; Begründung Drs. 20/11817 S. 142 spricht ausdrücklich von der Bekanntgabe 'im Inland durch die Post'. Begründung: Drs. 20/11817 S. 142 (Art. 33).",
+    "strittig": false
+   },
+   {
+    "id": "A-06",
+    "thema": "Bekanntgabefiktion AO bei Post und elektronischer Übermittlung",
+    "regel": "Ein schriftlicher Verwaltungsakt, der durch die Post im Inland übermittelt wird, gilt am vierten Tage nach der Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO); ein elektronisch übermittelter Verwaltungsakt am vierten Tage nach der Absendung (§ 122 Abs. 2a AO). Auch § 123 S. 2 AO (Empfangsbevollmächtigter, elektronisch übermitteltes Dokument) wurde auf den vierten Tag umgestellt. Kalendertage.",
+    "normen": [
+     "§ 122 Abs. 2 Nr. 1 AO",
+     "§ 122 Abs. 2a AO",
+     "§ 123 S. 2 AO",
+     "Art. 20 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__122.html",
+    "zitat": "am vierten Tage nach der Aufgabe zur Post",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Anwendung nur für Verwaltungsakte, die nach dem 31.12.2024 zur Post gegeben werden (A-08). Die AO schreibt in diesen Vorschriften 'vierten Tage' (mit e), VwVfG/SGB X 'vierten Tag'.",
+    "strittig": false
+   },
+   {
+    "id": "A-07",
+    "thema": "AO: Postversand ins Ausland (unverändert)",
+    "regel": "Ein Verwaltungsakt, der durch die Post im Ausland übermittelt wird, gilt einen Monat nach der Aufgabe zur Post als bekannt gegeben, außer er ist nicht oder später zugegangen. Diese Frist wurde durch das PostModG nicht geändert.",
+    "normen": [
+     "§ 122 Abs. 2 Nr. 2 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__122.html",
+    "zitat": "einen Monat nach der Aufgabe zur Post",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Für VwVfG und SGB X gibt es keine entsprechende Auslandsfiktion für Post (SGG: Rechtsbehelfsfristen verlängern sich bei Bekanntgabe im Ausland auf drei Monate, siehe R-03 und R-04).",
+    "strittig": false
+   },
+   {
+    "id": "A-08",
+    "thema": "AO: Übergangsregel für die Vier-Tage-Fiktion",
+    "regel": "§ 122 Abs. 2 Nr. 1 und Abs. 2a, § 122a Abs. 4 und § 123 S. 2 AO in der ab 01.01.2025 geltenden Fassung gelten für alle Verwaltungsakte, die nach dem 31.12.2024 zur Post gegeben, elektronisch übermittelt oder elektronisch zum Abruf bereitgestellt werden. Aufgabe am 31.12.2024 oder früher: alte Dreitagesregel (z. B. Aufgabe 31.12.2024, Bekanntgabe 03.01.2025). Aufgabe ab 01.01.2025: vier Tage.",
+    "normen": [
+     "Art. 97 § 1 Abs. 15 EGAO",
+     "Art. 21 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/aoeg_1977/art_97__1.html",
+    "zitat": "nach dem 31. Dezember 2024 zur Post gegeben, elektronisch übermittelt",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Wortlaut des Abs. 15 bestätigt durch gesetze-im-internet.de (Zitat dort gekürzt) und durch die Synopse in Drs. 20/11817 S. 118. Das Beispiel mit dem 31.12.2024 ist eigene Anwendung der Regel.",
+    "strittig": false
+   },
+   {
+    "id": "A-09",
+    "thema": "VwVfG, SGB X, VwZG: keine ausdrückliche Übergangsvorschrift",
+    "regel": "Für VwVfG (Art. 2), VwZG (Art. 3) und SGB X (Art. 33) enthält das PostModG keine eigene Übergangsnorm; sie treten nach Art. 43 Abs. 2 am 01.01.2025 in Kraft. Als Arbeitsannahme für den Benchmark: Anknüpfungspunkt ist der Tag der Aufgabe zur Post, ab 01.01.2025 vier Tage, bis 31.12.2024 drei Tage (parallel zur AO-Regel A-08).",
+    "normen": [
+     "Art. 43 Abs. 2 PostModG",
+     "§ 41 Abs. 2 VwVfG",
+     "§ 37 Abs. 2 SGB X"
+    ],
+    "quelle_url": "https://www.recht.bund.de/bgbl/1/2024/236/VO.html",
+    "zitat": "treten am 1. Januar 2025 in Kraft",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Das Fehlen einer Übergangsnorm habe ich nur an den Konsolidierungsseiten und der Synopse in Drs. 20/11817 festgestellt, nicht am BGBl.-PDF selbst. Die Annahme zum Anknüpfungspunkt ist nicht aus einer Quelle belegt. Sicherheitshalber im Benchmark nur Fälle mit Aufgabedatum nach dem 31.12.2024 bauen.",
+    "strittig": false
+   },
+   {
+    "id": "A-10",
+    "thema": "Fiktion entfällt bei späterem oder fehlendem Zugang, Nachweislast der Behörde",
+    "regel": "Die Bekanntgabefiktion gilt nicht, wenn der Verwaltungsakt nicht oder zu einem späteren Zeitpunkt zugegangen ist. Im Zweifel muss die Behörde den Zugang und den Zeitpunkt des Zugangs nachweisen. Bei später nachgewiesenem Zugang gilt der tatsächliche Zugangstag als Bekanntgabe. Die Fiktion setzt voraus, dass der Tag der Aufgabe zur Post feststeht.",
+    "normen": [
+     "§ 41 Abs. 2 S. 3 VwVfG",
+     "§ 37 Abs. 2 SGB X",
+     "§ 122 Abs. 2 AO",
+     "§ 4 Abs. 2 S. 3 und 4 VwZG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__41.html",
+    "zitat": "Dies gilt nicht, wenn der Verwaltungsakt nicht oder zu einem späteren Zeitpunkt zugegangen ist",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Aufgabe zur Post muss feststehen: BFH 20.02.2025 VI R 18/22 (Rz zu § 122 Abs. 2 Nr. 1 AO) unter Verweis auf BVerwG 29.11.2023 6 C 3.22 Rn. 22 zu § 41 Abs. 2 S. 1 VwVfG. Für Erzeugung erfundener Fälle: Aufgabedatum immer im Bescheid oder Aktenvermerk angeben.",
+    "strittig": false
+   },
+   {
+    "id": "A-11",
+    "thema": "Bestreiten des Zugangs: einfaches Bestreiten (BVerwG) gegen substantiiertes Bestreiten (BFH)",
+    "regel": "VwVfG: Zur Darlegung von Zweifeln am Zugang genügt grundsätzlich einfaches Bestreiten (BVerwG, Urteil vom 29.11.2023, 6 C 3.22, Leitsatz 1 und Rn. 24), außer es ist eine bloße Schutzbehauptung. AO: Wer nur behauptet, den Bescheid nicht innerhalb der Frist erhalten zu haben, muss im Rahmen des Möglichen substantiiert Tatsachen für einen abweichenden Geschehensablauf vortragen; einfaches Bestreiten genügt nicht (BFH, Urteil vom 20.02.2025, VI R 18/22, mit Verweis auf III R 27/17).",
+    "normen": [
+     "§ 41 Abs. 2 S. 3 VwVfG",
+     "§ 122 Abs. 2 Nr. 1 AO"
+    ],
+    "quelle_url": "https://www.bverwg.de/291123U6C3.22.0",
+    "zitat": "Es genügt nicht schon einfaches Bestreiten",
+    "gilt_ab": "2023-11-29 (BVerwG); 2025-02-20 (BFH)",
+    "hinweis": "Zitat stammt aus dem BFH-Urteil (Volltext: https://rewis.io/service/pdf/urteile/dgf-20-02-2025-vi-r-1822.pdf); BVerwG-Leitsatz: 'Einfaches Bestreiten reicht grundsätzlich aus'. Beide Entscheidungen betreffen noch die Dreitagesfrist. Für das Fristenbenchmark irrelevant, solange Zugangsdaten unstreitig sind; als Beleg für Rechtsgebietsunterschiede erhalten.",
+    "strittig": true
+   },
+   {
+    "id": "A-12",
+    "thema": "Elektronische Bekanntgabe per Abruf (VwVfG)",
+    "regel": "Mit Einwilligung kann ein elektronischer Verwaltungsakt durch Abruf über öffentlich zugängliche Netze bekannt gegeben werden (nach Authentifizierung). Er gilt am Tag nach dem Abruf als bekannt gegeben. Wird er nicht innerhalb von zehn Tagen nach Absendung der Benachrichtigung abgerufen, endet die Bereitstellung und die Bekanntgabe ist nicht bewirkt. Diese Regel hat das PostModG nicht geändert.",
+    "normen": [
+     "§ 41 Abs. 2a VwVfG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__41.html",
+    "zitat": "Der Verwaltungsakt gilt am Tag nach dem Abruf als bekannt gegeben.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Sätze 1, 2, 4, 5 wörtlich abgerufen, Satz 3 als Zitat. Satz 5: 'In diesem Fall ist die Bekanntgabe nicht bewirkt'.",
+    "strittig": false
+   },
+   {
+    "id": "A-13",
+    "thema": "SGB X: elektronischer Verwaltungsakt zum Abruf",
+    "regel": "Mit Einwilligung bereitgestellte elektronische Verwaltungsakte gelten am vierten Tag nach Absendung der elektronischen Benachrichtigung über die Bereitstellung als bekannt gegeben (zuvor dritter Tag). Im Zweifel muss die Behörde den Zugang der Benachrichtigung nachweisen; bestreitet der Beteiligte den Zugang und gelingt der Nachweis nicht, gilt der Tag des Abrufs.",
+    "normen": [
+     "§ 37 Abs. 2a S. 4 und 5 SGB X",
+     "Art. 33 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_10/__37.html",
+    "zitat": "gilt am vierten Tag nach Absendung der elektronischen Benachrichtigung",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Die Regel zum Tag des Abrufs steht laut Abruf in einem weiteren Satz (Satz 6), den ich nicht wörtlich zitieren konnte.",
+    "strittig": false
+   },
+   {
+    "id": "A-14",
+    "thema": "Landes-VwVfG: Beispiel Bayern",
+    "regel": "Art. 41 Abs. 2 BayVwVfG enthält seit 01.01.2025 ebenfalls den vierten Tag nach Aufgabe zur Post (Satz 1) und nach elektronischer Absendung (Satz 2). Landesbehörden wenden das jeweilige Landesgesetz an; Länder, die dynamisch auf das Bundes-VwVfG verweisen, übernehmen die Änderung automatisch.",
+    "normen": [
+     "Art. 41 Abs. 2 BayVwVfG"
+    ],
+    "quelle_url": "https://www.gesetze-bayern.de/Content/Document/BayVwVfG-41",
+    "zitat": "gilt am vierten Tag",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Nur Bayern am amtlichen Gesetzesportal geprüft. Baden-Württemberg und Nordrhein-Westfalen nur über Datenbank- und Kanzleiseiten, übrige Länder nicht geprüft.",
+    "strittig": false
+   },
+   {
+    "id": "A-15",
+    "thema": "Gerichtliche Verfahrensordnungen: Zugangsfiktion ebenfalls vierter Tag",
+    "regel": "In § 178a Abs. 2 S. 3 SGG, § 152a Abs. 2 S. 3 VwGO und § 133a Abs. 2 S. 3 FGO (Anhörungsrüge) sowie in § 270 S. 2 und § 357 Abs. 2 S. 2 ZPO wurde die Zugangsfiktion bei Übersendung durch die Post auf den vierten Tag nach der Aufgabe umgestellt.",
+    "normen": [
+     "Art. 4, 5, 9, 11, 12 PostModG (Beschlussempfehlung: Art. 5, 9, 11, 12)",
+     "§ 178a SGG",
+     "§ 152a VwGO",
+     "§ 133a FGO",
+     "§ 270 ZPO"
+    ],
+    "quelle_url": "https://dserver.bundestag.de/btd/20/118/2011817.pdf",
+    "zitat": "gilt die Mitteilung am vierten Tag nach der Aufgabe zur Post",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Aus der Synopse der Drs. 20/11817 S. 111 bis 114. Für Klasse 1 (Bescheide) nachrangig.",
+    "strittig": false
+   },
+   {
+    "id": "B-01",
+    "thema": "AO: Fiktionsfrist am Wochenende oder Feiertag verlängert sich",
+    "regel": "Fällt der letzte Tag der Bekanntgabefrist des § 122 Abs. 2 Nr. 1 AO (der fiktive Bekanntgabetag) auf einen Sonnabend, Sonntag oder gesetzlichen Feiertag, verlängert sich die Frist nach § 108 Abs. 3 AO bis zum nächstfolgenden Werktag; der Bescheid gilt erst an diesem Werktag als bekannt gegeben und die Einspruchsfrist beginnt am Folgetag. Gilt auch für § 122 Abs. 2a und § 123 AO.",
+    "normen": [
+     "§ 122 Abs. 2 Nr. 1 AO",
+     "§ 108 Abs. 3 AO",
+     "BFH 14.10.2003 IX R 68/98 (BStBl II 2003, 898; BFHE 203, 26)"
+    ],
+    "quelle_url": "https://lexetius.com/2003,2447",
+    "zitat": "verlängert sich die Frist nach § 108 Abs. 3 AO auf den nächstfolgenden Werktag",
+    "gilt_ab": "2003-10-14",
+    "hinweis": "Bestätigt als ständige Rechtsprechung durch BFH, Beschluss vom 05.05.2014, III B 85/13 (https://www.bundesfinanzhof.de/en/entscheidungen/entscheidungen-online/decision-detail/STRE201450312). Finanzverwaltung: AEAO zu § 108 Nr. 2. Die genannten Quellen betreffen die Dreitagesfrist; für die Viertagesfrist siehe B-02. Lexetius-Seite gibt das Leitsatz-Zitat sinngemäß wieder.",
+    "strittig": false
+   },
+   {
+    "id": "B-02",
+    "thema": "AO: Gesetzgeber lässt die Verlängerung auch für die Vier-Tage-Frist ausdrücklich fortgelten",
+    "regel": "Der Gesetzgeber hat § 108 Abs. 3 AO nicht ausgeschlossen (der Entwurf eines § 122 Abs. 2b AO wurde gestrichen) und erklärt in der Begründung, dass die BFH-Rechtslage bei der Vier-Tage-Frist fortgilt: Fällt der vierte Tag auf Samstag, Sonntag oder gesetzlichen Feiertag, gilt der Bescheid erst am nächsten Werktag als bekannt gegeben.",
+    "normen": [
+     "§ 122 Abs. 2 Nr. 1 AO",
+     "§ 108 Abs. 3 AO",
+     "Drs. 20/11817 S. 141 f. (Zu Artikel 20)"
+    ],
+    "quelle_url": "https://dserver.bundestag.de/btd/20/118/2011817.pdf",
+    "zitat": "soll diese Rechtslage abweichend vom Regierungsentwurf fortgelten",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Die Begründung steht nicht im Gesetzestext. Eine Entscheidung des BFH, die ausdrücklich die Viertagesfrist am Wochenende behandelt, habe ich nicht gefunden. BMF-Schreiben vom 10.12.2024 (IV D 1 - S 0062/24/10003:001) änderte den AEAO auf vier Tage; dessen Wortlaut zu Nr. 2 des AEAO zu § 108 war nicht abrufbar.",
+    "strittig": false
+   },
+   {
+    "id": "B-03",
+    "thema": "VwZG § 4 Abs. 2 im Bereich der AO: Verschiebung laut Finanzverwaltung",
+    "regel": "Die Finanzverwaltung wendet § 108 Abs. 3 AO auch auf die Zustellungsfiktion des § 4 Abs. 2 VwZG an (Einschreiben ohne Rückschein): Fällt der fiktive Zustellungstag auf ein Wochenende oder einen Feiertag, gilt der nächste Werktag.",
+    "normen": [
+     "AEAO zu § 108 Nr. 2",
+     "§ 4 Abs. 2 VwZG",
+     "§ 108 Abs. 3 AO"
+    ],
+    "quelle_url": "https://steuerschroeder.de/steuergesetze/estg/44b/aeao/108",
+    "zitat": "§ 108 Abs. 3 AO gilt auch für die Dreitage-Regelungen",
+    "gilt_ab": "bestehend (AEAO-Fassung mit Dreitage-Wortlaut gelesen)",
+    "hinweis": "Verwaltungsanweisung, keine Gerichtsentscheidung gefunden; der gelesene AEAO-Text nennt noch Dreitage-Regelungen und ist über eine Drittseite abgerufen. Außerhalb der AO (z. B. VwGO-Verfahren) ist die Anwendung auf § 4 VwZG offen.",
+    "strittig": true
+   },
+   {
+    "id": "B-04",
+    "thema": "SGB X: Fiktionsfrist verschiebt sich am Wochenende oder Feiertag nicht",
+    "regel": "Fällt der vierte (früher dritte) Tag nach Aufgabe zur Post auf einen Samstag, Sonntag oder Feiertag, gilt der Bescheid trotzdem an diesem Tag als bekannt gegeben; keine Verschiebung auf den nächsten Werktag. § 37 Abs. 2 SGB X regelt einen Zeitpunkt, keine Frist, daher sind § 26 Abs. 3 SGB X und § 64 Abs. 3 SGG weder direkt noch analog anwendbar. Die Rechtsbehelfsfrist beginnt am Tag danach.",
+    "normen": [
+     "§ 37 Abs. 2 S. 1 SGB X",
+     "§ 26 Abs. 3 SGB X",
+     "§ 64 Abs. 3 SGG",
+     "BSG 06.05.2010 B 14 AS 12/09 R"
+    ],
+    "quelle_url": "https://urteile-gesetze.de/rechtsprechung/b-14-as-12-09-r",
+    "zitat": "auch dann am dritten Tag nach der Aufgabe zur Post als bekannt gegeben, wenn dieser Tag ein Samstag, Sonntag oder Feiertag ist",
+    "gilt_ab": "2010-05-06",
+    "hinweis": "Zitat ist der Leitsatz sinngemäß aus Datenbankwiedergabe (urteile-gesetze.de, gesetze.co), nicht aus dem amtlichen BSG-Volltext. Bestätigt durch LSG München, Urteil vom 11.05.2022, L 2 U 140/13 (https://www.gesetze-bayern.de/Content/Rtf/Y-300-Z-BECKRS-B-2022-N-17504). Das BSG grenzt sich bewusst vom BFH ab (Steuerrecht: Vertretung durch Berater). BFH III B 85/13 bestätigt diese Abgrenzung. Die Entscheidungen betreffen die Dreitagesfrist; zur Viertagesfrist keine Entscheidung gefunden, der Gesetzgeber hat im SGB X nichts anderes geregelt. Datum in Datenbanken 05.05. oder 06.05.2010; BFH III B 85/13 nennt 06.05.2010.",
+    "strittig": false
+   },
+   {
+    "id": "B-05",
+    "thema": "VwVfG: Fiktionsfrist am Wochenende oder Feiertag, Rechtslage uneinheitlich",
+    "regel": "Überwiegende Auffassung der Verwaltungsgerichtsbarkeit: Fällt der vierte (früher dritte) Tag auf Samstag, Sonntag oder Feiertag, gilt der Verwaltungsakt trotzdem an diesem Tag als bekannt gegeben (Fiktion ist ein Termin, keine Frist; § 31 Abs. 3 VwVfG nicht anwendbar). Gegenansicht (Teile der Literatur, BFH-Linie für AO): Verschiebung auf den nächsten Werktag. Eine Entscheidung des BVerwG zu dieser Frage habe ich nicht gefunden. Für den Benchmark als strittig markieren oder Fälle mit Wochenende am Fiktionstag im VwVfG-Bereich vermeiden.",
+    "normen": [
+     "§ 41 Abs. 2 VwVfG",
+     "§ 31 Abs. 3 VwVfG",
+     "BayVGH 23.07.1990 GrS 1/90",
+     "VGH BW 19.11.1991 3 S 2492/91",
+     "OVG NRW 07.03.2001 19 A 4216/99",
+     "OVG Lüneburg 26.10.2006 7 PA 184/06",
+     "OVG RP 30.10.2014 10 A 11170/13",
+     "VG München 07.12.2021 M 10 S 21.4517"
+    ],
+    "quelle_url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2021-N-40185",
+    "zitat": "unabhängig davon, ob es sich um einen Werk-, Sonn- oder Feiertag handelt",
+    "gilt_ab": "bestehend; Rechtsprechung zur Dreitagesfrist",
+    "hinweis": "Aufzählung der Rechtsprechung stammt aus der Wiedergabe in VG München, Beschluss vom 07.12.2021, M 10 S 21.4517 (Rn. 31 bis 36); die einzelnen Entscheidungen habe ich nicht im Volltext geprüft. Im Fall des VG München galt der Bescheid als am Sonntag, 25.04.2021 bekannt gegeben, die Widerspruchsfrist endete am 25.05.2021. Die Bundesregierung wollte die uneinheitliche Auslegungspraxis ursprünglich vereinheitlichen und hat das auf ein eigenes Verfahren vertagt (Drs. 20/11817, Begründung zu Art. 3). Die Literaturmeinung (Stelkens) ist nur über ein Lehrmaterial belegt.",
+    "strittig": true
+   },
+   {
+    "id": "B-06",
+    "thema": "Fristbeginn nach fingiertem Bekanntgabetag",
+    "regel": "Ist der fiktive Bekanntgabetag (nach den Regeln B-01, B-04, B-05) bestimmt, beginnt die Rechtsbehelfsfrist am folgenden Tag um 0 Uhr (§ 187 Abs. 1 BGB); auch wenn dieser Folgetag ein Sonntag oder Feiertag ist, ist das für den Fristbeginn unerheblich. Beispiel BFH: Bekanntgabe Montag 18.06.2018, Einspruchsfrist 19.06.2018 bis 18.07.2018.",
+    "normen": [
+     "§ 187 Abs. 1 BGB",
+     "§ 188 Abs. 2 BGB",
+     "§ 108 Abs. 1 AO",
+     "§ 31 Abs. 1 VwVfG",
+     "§ 26 Abs. 1 SGB X"
+    ],
+    "quelle_url": "https://rewis.io/service/pdf/urteile/dgf-20-02-2025-vi-r-1822.pdf",
+    "zitat": "begann demnach am 19.06.2018 und endete mit Ablauf des 18.07.2018",
+    "gilt_ab": "bestehend",
+    "hinweis": "Das Zitat ist sinngemäß aus Rz 4 des BFH-Urteils VI R 18/22 (Text im PDF in zwei Zeilen). Das FG Niedersachsen (27.01.2021, 9 K 203/20) nimmt bei Zustellung am Samstag, 29.12.2018, Fristbeginn am Sonntag 30.12.2018 an.",
+    "strittig": false
+   },
+   {
+    "id": "C-01",
+    "thema": "Zustellung mit Postzustellungsurkunde: keine Fiktion, tatsächlicher Zustellungstag",
+    "regel": "Bei förmlicher Zustellung durch die Post mit Zustellungsurkunde (§ 3 VwZG) gibt es keine Drei-/Vier-Tages-Fiktion; maßgeblich ist der tatsächliche Zustellungstag laut Zustellungsurkunde (Datum der Übergabe bzw. der Ersatzzustellung). Die Rechtsbehelfsfrist beginnt am Tag nach der Zustellung (nicht am Zustellungstag selbst), auch wenn dieser Tag ein Wochenende ist.",
+    "normen": [
+     "§ 3 Abs. 1 und 2 VwZG",
+     "§§ 177 bis 182 ZPO",
+     "§ 187 Abs. 1 BGB",
+     "FG Niedersachsen 27.01.2021 9 K 203/20"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwzg_2005/__3.html",
+    "zitat": "Für die Ausführung der Zustellung gelten die §§ 177 bis 182 der Zivilprozessordnung entsprechend.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Die Aufgabenbeschreibung nennt 'Fristbeginn am Tag der Zustellung'; rechtlich korrekt ist: Zustellung am Tag X, Fristlauf ab X+1. Belegt durch FG Niedersachsen (Zustellung Sa 29.12.2018, Fristbeginn 30.12.2018, über IWW-Wiedergabe: https://www.iww.de/kp/berufsrecht/verfahrensrecht-keine-drei-tage-fiktion-bei-zustellung-mit-pzu-n142309). Volltext des FG-Urteils nicht eingesehen.",
+    "strittig": false
+   },
+   {
+    "id": "C-02",
+    "thema": "Ersatzzustellung: Briefkasten und Niederlegung",
+    "regel": "Einlegen in den Briefkasten (§ 180 ZPO): Das Schriftstück gilt mit der Einlegung als zugestellt; der Zusteller vermerkt das Datum auf dem Umschlag. Niederlegung (§ 181 ZPO): Das Schriftstück gilt mit der Abgabe der schriftlichen Mitteilung (Benachrichtigung) als zugestellt, nicht erst mit der Abholung; es ist drei Monate zur Abholung bereitzuhalten. Die Zustellungsurkunde enthält das Datum der Zustellung (§ 182 Abs. 2 Nr. 7 ZPO).",
+    "normen": [
+     "§ 180 ZPO",
+     "§ 181 Abs. 1 und 2 ZPO",
+     "§ 182 ZPO",
+     "§ 3 Abs. 2 VwZG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__181.html",
+    "zitat": "Das Schriftstück gilt mit der Abgabe der schriftlichen Mitteilung als zugestellt.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "§ 180: 'Mit der Einlegung gilt das Schriftstück als zugestellt.' § 182 Abs. 1 S. 2: 'Für diese Zustellungsurkunde gilt § 418.' Die Beweiskraft der Urkunde und Gegenbeweis habe ich nicht weiter geprüft.",
+    "strittig": false
+   },
+   {
+    "id": "C-03",
+    "thema": "Einschreiben nach § 4 VwZG",
+    "regel": "Zustellung durch Einschreiben mittels Übergabe oder mit Rückschein: Zum Nachweis der Zustellung genügt der Rückschein. Im Übrigen gilt das Dokument am vierten Tag nach der Aufgabe zur Post als zugestellt (zuvor dritter Tag), es sei denn, es ist nicht oder später zugegangen; im Zweifel muss die Behörde Zugang und Zeitpunkt nachweisen; der Tag der Aufgabe ist in den Akten zu vermerken.",
+    "normen": [
+     "§ 4 Abs. 1 und 2 VwZG",
+     "Art. 3 Nr. 1 PostModG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwzg_2005/__4.html",
+    "zitat": "gilt das Dokument am vierten Tag nach der Aufgabe zur Post als zugestellt",
+    "gilt_ab": "2025-01-01",
+    "hinweis": "Wortlaut der Sätze 1 bis 4 aus der dejure-Wiedergabe 'Fassung seit 01.01.2025' und der gesetze-im-internet-Seite. Das Verhältnis von Übergabe-Einschreiben/Rückschein zur Fiktion ('im übrigen') und das Wochenendproblem sind unklar (siehe B-03 und offene Punkte).",
+    "strittig": false
+   },
+   {
+    "id": "C-04",
+    "thema": "Zustellung nur, wenn vorgeschrieben oder angeordnet; dann VwZG",
+    "regel": "Ein Verwaltungsakt wird zugestellt, wenn dies gesetzlich vorgeschrieben ist oder behördlich angeordnet wird; die Zustellung richtet sich nach dem VwZG. Bei einfacher Bekanntgabe per Brief gilt die Postfiktion, bei förmlicher Zustellung nicht.",
+    "normen": [
+     "§ 122 Abs. 5 AO",
+     "§ 41 Abs. 5 VwVfG",
+     "§ 37 Abs. 5 SGB X"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__122.html",
+    "zitat": "Die Zustellung richtet sich vorbehaltlich der Sätze 3 und 4 nach den Vorschriften des Verwaltungszustellungsgesetzes.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "§ 41 Abs. 5 VwVfG und § 37 Abs. 5 SGB X nur in Zusammenfassung der abgerufenen Seiten ('Vorschriften über Bekanntgabe durch Zustellung bleiben unberührt'), nicht wörtlich.",
+    "strittig": false
+   },
+   {
+    "id": "C-05",
+    "thema": "Widerspruchsbescheid: Zustellung bei VwGO zwingend, bei SGG nur wenn die Behörde zustellt",
+    "regel": "VwGO: Der Widerspruchsbescheid ist zu begründen, mit Rechtsmittelbelehrung zu versehen und zuzustellen (kein Raum für die Postfiktion). SGG: Der Widerspruchsbescheid ist schriftlich zu erlassen, zu begründen und den Beteiligten bekanntzugeben; die §§ 2 bis 10 VwZG gelten nur, wenn die Behörde zustellt, sonst greift die Bekanntgabefiktion des § 37 SGB X.",
+    "normen": [
+     "§ 73 Abs. 3 S. 1 VwGO",
+     "§ 85 Abs. 3 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwgo/__73.html",
+    "zitat": "Der Widerspruchsbescheid ist zu begründen, mit einer Rechtsmittelbelehrung zu versehen und zuzustellen.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "SGG-Zitat: 'Nimmt die Behörde eine Zustellung vor, gelten die §§ 2 bis 10 des Verwaltungszustellungsgesetzes.' (https://www.gesetze-im-internet.de/sgg/__85.html).",
+    "strittig": false
+   },
+   {
+    "id": "R-01",
+    "thema": "Widerspruch VwGO",
+    "regel": "Der Widerspruch ist innerhalb eines Monats zu erheben, nachdem der Verwaltungsakt dem Beschwerten bekanntgegeben worden ist; die Frist wird auch durch Einlegung bei der Behörde gewahrt, die den Widerspruchsbescheid zu erlassen hat.",
+    "normen": [
+     "§ 70 Abs. 1 VwGO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwgo/__70.html",
+    "zitat": "Der Widerspruch ist innerhalb eines Monats, nachdem der Verwaltungsakt dem Beschwerten bekanntgegeben worden ist,",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Abs. 2: §§ 58 und 60 Abs. 1 bis 4 VwGO gelten entsprechend. Berechnung der Widerspruchsfrist wahlweise nach § 31 VwVfG (Vorverfahren als Verwaltungsverfahren) oder § 57 Abs. 2 VwGO i. V. m. § 222 ZPO; beide führen zu den §§ 187 ff. BGB und zum selben Ergebnis (Lehrmaterial, nicht Rechtsprechung).",
+    "strittig": false
+   },
+   {
+    "id": "R-02",
+    "thema": "Anfechtungsklage VwGO",
+    "regel": "Die Anfechtungsklage muss innerhalb eines Monats nach Zustellung des Widerspruchsbescheids erhoben werden. Ist ein Widerspruchsbescheid nach § 68 VwGO nicht erforderlich, muss die Klage innerhalb eines Monats nach Bekanntgabe des Verwaltungsakts erhoben werden.",
+    "normen": [
+     "§ 74 Abs. 1 S. 1 und 2 VwGO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwgo/__74.html",
+    "zitat": "Die Anfechtungsklage muß innerhalb eines Monats nach Zustellung des Widerspruchsbescheids erhoben werden.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Satz 2 nur bis 'nach Bekanntgabe des' abrufbar (Rest: Verwaltungsakts erhoben werden, sinngemäß). Fristende nach § 57 Abs. 2 VwGO i. V. m. § 222 ZPO.",
+    "strittig": false
+   },
+   {
+    "id": "R-03",
+    "thema": "Widerspruch SGG",
+    "regel": "Der Widerspruch ist binnen eines Monats nach Bekanntgabe des Verwaltungsakts bei der Stelle einzureichen, die den Verwaltungsakt erlassen hat; bei Bekanntgabe im Ausland beträgt die Frist drei Monate.",
+    "normen": [
+     "§ 84 Abs. 1 S. 1 und 2 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgg/__84.html",
+    "zitat": "Die Frist beträgt bei Bekanntgabe im Ausland drei Monate.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Satz 1: 'binnen eines Monats, nachdem der Verwaltungsakt dem Beschwerten bekanntgegeben worden ist'.",
+    "strittig": false
+   },
+   {
+    "id": "R-04",
+    "thema": "Klage SGG",
+    "regel": "Die Klage ist binnen eines Monats nach Bekanntgabe des Verwaltungsakts zu erheben; bei Bekanntgabe im Ausland drei Monate. Hat ein Vorverfahren stattgefunden, beginnt die Frist mit der Bekanntgabe des Widerspruchsbescheids.",
+    "normen": [
+     "§ 87 Abs. 1 und 2 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgg/__87.html",
+    "zitat": "Die Klage ist binnen eines Monats nach Bekanntgabe des Verwaltungsakts zu erheben.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Abs. 2: 'Hat ein Vorverfahren stattgefunden, so beginnt die Frist mit der Bekanntgabe des Widerspruchsbescheids.' Fristbeginn nach § 64 Abs. 1 SGG: Tag nach Zustellung, Eröffnung oder Verkündung.",
+    "strittig": false
+   },
+   {
+    "id": "R-05",
+    "thema": "Einspruch AO",
+    "regel": "Der Einspruch gegen einen Verwaltungsakt ist innerhalb eines Monats nach Bekanntgabe des Verwaltungsakts einzulegen. Für Steueranmeldungen läuft die Monatsfrist ab Eingang der Steueranmeldung bei der Finanzbehörde.",
+    "normen": [
+     "§ 355 Abs. 1 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__355.html",
+    "zitat": "Der Einspruch nach § 347 Absatz 1 Satz 1 ist innerhalb eines Monats nach Bekanntgabe des Verwaltungsakts einzulegen.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Nur Abs. 1 geprüft; Abs. 2 (Fristwahrung bei unzuständiger Behörde) nicht.",
+    "strittig": false
+   },
+   {
+    "id": "R-06",
+    "thema": "Anfechtungsklage FGO",
+    "regel": "Die Frist für die Anfechtungsklage beträgt einen Monat; sie beginnt mit der Bekanntgabe der Entscheidung über den außergerichtlichen Rechtsbehelf (Einspruchsentscheidung), in den Fällen des § 45 und wenn kein außergerichtlicher Rechtsbehelf gegeben ist mit der Bekanntgabe des Verwaltungsakts. Der Lauf beginnt auch mit dem Zeitpunkt, an dem die Bekanntgabe als bewirkt gilt (Fiktion); Fristende nach § 54 Abs. 2 FGO i. V. m. § 222 ZPO.",
+    "normen": [
+     "§ 47 Abs. 1 FGO",
+     "§ 54 Abs. 1 und 2 FGO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/fgo/__47.html",
+    "zitat": "Die Frist für die Erhebung der Anfechtungsklage beträgt einen Monat;",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "§ 54 Abs. 1 FGO: 'mit dem Zeitpunkt, an dem die Bekanntgabe als bewirkt gilt.' § 366 AO sagt für die Einspruchsentscheidung nur 'zu erteilen'/'bekannt gegeben', nicht ausdrücklich 'zuzustellen' (nur Zusammenfassung abgerufen).",
+    "strittig": false
+   },
+   {
+    "id": "E-01",
+    "thema": "Fehlende oder unrichtige Rechtsbehelfsbelehrung VwGO",
+    "regel": "Die Rechtsbehelfsfrist beginnt nur zu laufen, wenn der Beteiligte über Rechtsbehelf, Behörde oder Gericht, Sitz und einzuhaltende Frist schriftlich oder elektronisch belehrt worden ist (§ 58 Abs. 1). Ist die Belehrung unterblieben oder unrichtig erteilt, ist der Rechtsbehelf nur innerhalb eines Jahres seit Zustellung, Eröffnung oder Verkündung zulässig, außer die Einlegung war vor Ablauf der Jahresfrist infolge höherer Gewalt unmöglich oder es wurde schriftlich oder elektronisch belehrt, dass ein Rechtsbehelf nicht gegeben sei (§ 58 Abs. 2 S. 1). Gilt für Widersprüche über § 70 Abs. 2 VwGO.",
+    "normen": [
+     "§ 58 Abs. 1 und 2 VwGO",
+     "§ 70 Abs. 2 VwGO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwgo/__58.html",
+    "zitat": "eines Jahres seit Zustellung, Eröffnung oder Verkündung zulässig",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Nur Abs. 2 Satz 1 geprüft. Wann eine Belehrung 'unrichtig' ist (Rechtsprechung), nicht geprüft.",
+    "strittig": false
+   },
+   {
+    "id": "E-02",
+    "thema": "Fehlende oder unrichtige Rechtsbehelfsbelehrung SGG",
+    "regel": "Wie VwGO: Frist läuft nur bei ordnungsgemäßer Belehrung (§ 66 Abs. 1); bei fehlender oder unrichtiger Belehrung Jahresfrist seit Zustellung, Eröffnung oder Verkündung, außer höhere Gewalt oder Belehrung, dass ein Rechtsbehelf nicht gegeben sei (§ 66 Abs. 2).",
+    "normen": [
+     "§ 66 Abs. 1 und 2 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgg/__66.html",
+    "zitat": "nur innerhalb eines Jahres seit Zustellung, Eröffnung oder Verkündung zulässig",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Die Regel zur höheren Gewalt verweist in der Norm auf einen weiteren Satz, der hier nicht geprüft wurde.",
+    "strittig": false
+   },
+   {
+    "id": "E-03",
+    "thema": "Fehlende oder unrichtige Rechtsbehelfsbelehrung AO",
+    "regel": "Die Einspruchsfrist beginnt nur, wenn über den Einspruch, die Finanzbehörde, deren Sitz und die Frist in der für den Verwaltungsakt verwendeten Form belehrt wurde (§ 356 Abs. 1). Bei fehlender oder unrichtiger Belehrung ist der Einspruch nur binnen eines Jahres seit Bekanntgabe des Verwaltungsakts zulässig, es sei denn, die Einlegung war vor Ablauf infolge höherer Gewalt unmöglich oder es wurde schriftlich oder elektronisch belehrt, dass ein Einspruch nicht gegeben sei; § 110 Abs. 2 AO gilt bei höherer Gewalt sinngemäß (§ 356 Abs. 2).",
+    "normen": [
+     "§ 356 Abs. 1 und 2 AO",
+     "§ 110 Abs. 2 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__356.html",
+    "zitat": "nur binnen eines Jahres seit Bekanntgabe des Verwaltungsakts zulässig",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Anders als VwGO und SGG knüpft die AO die Jahresfrist an die Bekanntgabe (nicht an Zustellung, Eröffnung oder Verkündung).",
+    "strittig": false
+   },
+   {
+    "id": "E-04",
+    "thema": "Fehlende oder unrichtige Rechtsbehelfsbelehrung FGO",
+    "regel": "Frist läuft nur bei Belehrung (§ 55 Abs. 1); sonst Jahresfrist seit Bekanntgabe im Sinne des § 54 Abs. 1 FGO, außer höhere Gewalt oder Belehrung, dass ein Rechtsbehelf nicht gegeben sei; § 56 Abs. 2 gilt bei höherer Gewalt sinngemäß (§ 55 Abs. 2).",
+    "normen": [
+     "§ 55 Abs. 1 und 2 FGO",
+     "§ 56 Abs. 2 FGO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/fgo/__55.html",
+    "zitat": "Jahres seit Bekanntgabe im Sinne des § 54 Abs. 1 zulässig",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "",
+    "strittig": false
+   },
+   {
+    "id": "F-01",
+    "thema": "Fristberechnung: Beginn am Folgetag",
+    "regel": "Für Fristen, die an ein Ereignis (Bekanntgabe, Zustellung, Fiktionstag) anknüpfen, wird der Tag des Ereignisses nicht mitgezählt; die Frist beginnt am nächsten Tag um 0 Uhr. VwVfG, SGB X und AO verweisen dafür auf die §§ 187 bis 193 BGB, VwGO und FGO auf § 222 ZPO (und damit auf das BGB), das SGG sagt es selbst.",
+    "normen": [
+     "§ 187 Abs. 1 BGB",
+     "§ 31 Abs. 1 VwVfG",
+     "§ 26 Abs. 1 SGB X",
+     "§ 108 Abs. 1 AO",
+     "§ 57 Abs. 2 VwGO i. V. m. § 222 Abs. 1 ZPO",
+     "§ 64 Abs. 1 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgg/__64.html",
+    "zitat": "mit dem Tag nach der Zustellung",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "§ 64 Abs. 1 SGG: 'Der Lauf einer Frist beginnt, soweit nichts anderes bestimmt ist, mit dem Tag nach der Zustellung oder, wenn diese nicht vorgeschrieben ist, mit dem Tag nach der Eröffnung oder Verkündung.' § 187 Abs. 1 BGB nur sinngemäß abgerufen (Zitat gekürzt).",
+    "strittig": false
+   },
+   {
+    "id": "F-02",
+    "thema": "Fristberechnung: Monats- und Jahresfrist, Fristende",
+    "regel": "Eine nach Monaten oder Jahren bestimmte Frist endet mit Ablauf desjenigen Tages des letzten Monats bzw. Jahres, der durch seine Zahl dem Tag des Ereignisses entspricht (Bekanntgabe am 18.06. gibt Fristende 18.07.). Fehlt dieser Tag im letzten Monat, endet die Frist mit dem letzten Tag dieses Monats (Bekanntgabe 31.01. gibt Fristende 28. bzw. 29.02.). Das SGG enthält die gleiche Regel selbst.",
+    "normen": [
+     "§ 188 Abs. 2 und 3 BGB",
+     "§ 64 Abs. 2 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__188.html",
+    "zitat": "so endigt die Frist mit dem Ablauf des letzten Tages dieses Monats.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Für ein am 29.02. eines Schaltjahres bekanntgegebenes Ereignis bei Jahresfrist wirkt § 188 Abs. 3 BGB entsprechend (eigene Anwendung, nicht gesondert belegt). Beispiel BFH VI R 18/22: Bekanntgabe 18.06.2018, Einspruchsfrist bis Ablauf 18.07.2018 (Mittwoch).",
+    "strittig": false
+   },
+   {
+    "id": "F-03",
+    "thema": "Fristende am Wochenende oder Feiertag: VwGO und FGO",
+    "regel": "Liegt das Fristende auf einem Sonntag, einem allgemeinen Feiertag oder einem Samstag, endet die Frist mit Ablauf des nächsten Werktags. Für Klagefristen gelten §§ 222, 224 Abs. 2 und 3, 225, 226 ZPO über § 57 Abs. 2 VwGO bzw. § 54 Abs. 2 FGO.",
+    "normen": [
+     "§ 57 Abs. 2 VwGO",
+     "§ 54 Abs. 2 FGO",
+     "§ 222 Abs. 2 ZPO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__222.html",
+    "zitat": "so endet die Frist mit Ablauf des nächsten Werktages.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "§ 57 Abs. 2 VwGO: 'Für die Fristen gelten die Vorschriften der §§ 222, 224 Abs. 2 und 3, §§ 225 und 226 der Zivilprozeßordnung.' Das Zitat aus § 222 Abs. 2 ZPO stammt aus einer Wiedergabe der Seite.",
+    "strittig": false
+   },
+   {
+    "id": "F-04",
+    "thema": "Fristende am Wochenende oder Feiertag: SGG",
+    "regel": "Fällt das Ende einer Frist auf einen Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend, endet die Frist mit Ablauf des nächsten Werktags.",
+    "normen": [
+     "§ 64 Abs. 3 SGG"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/sgg/__64.html",
+    "zitat": "so endet die Frist mit Ablauf des nächsten Werktags.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Gilt nicht für die Bekanntgabefiktion (B-04). Keine Ausnahme für bestimmte mitgeteilte Fristenden (anders als VwVfG und SGB X).",
+    "strittig": false
+   },
+   {
+    "id": "F-05",
+    "thema": "Fristende am Wochenende oder Feiertag: AO",
+    "regel": "Fällt das Ende einer Frist auf einen Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend, endet die Frist mit Ablauf des nächstfolgenden Werktags. Absatz 3 hat nur einen Satz, also keine Ausnahme für mitgeteilte Fristenden.",
+    "normen": [
+     "§ 108 Abs. 3 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__108.html",
+    "zitat": "so endet die Frist mit dem Ablauf des nächstfolgenden Werktags.",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Gilt für Einspruchsfrist und, nach BFH und Verwaltung, auch für die Bekanntgabefiktion (B-01).",
+    "strittig": false
+   },
+   {
+    "id": "F-06",
+    "thema": "Fristende am Wochenende oder Feiertag: VwVfG und SGB X, mit Ausnahme bei mitgeteiltem Fristende",
+    "regel": "Fällt das Ende einer Frist auf einen Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend, endet die Frist mit Ablauf des nächstfolgenden Werktags. Das gilt nicht, wenn dem Betroffenen unter Hinweis auf diese Vorschrift ein bestimmter Tag als Ende der Frist mitgeteilt worden ist (dann gilt dieser Tag, auch wenn er ein Wochenende ist).",
+    "normen": [
+     "§ 31 Abs. 3 S. 1 und 2 VwVfG",
+     "§ 26 Abs. 3 S. 1 und 2 SGB X"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__31.html",
+    "zitat": "Dies gilt nicht, wenn dem Betroffenen unter Hinweis auf diese Vorschrift ein bestimmter Tag als",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Wortlaut von § 26 Abs. 3 SGB X ist praktisch gleich (https://www.gesetze-im-internet.de/sgb_10/__26.html). Die Ausnahme verlangt den ausdrücklichen Hinweis auf die Vorschrift. § 31 Abs. 4 VwVfG: Leistungszeiträume enden auch am Wochenende. Bei den Rechtsbehelfsfristen (Widerspruch/Klage) wirken stattdessen § 57 VwGO bzw. § 64 SGG.",
+    "strittig": false
+   },
+   {
+    "id": "F-07",
+    "thema": "Von der Behörde gesetzte Frist: Beginn am Tag nach Bekanntgabe der Frist",
+    "regel": "Der Lauf einer von einer Behörde gesetzten Frist (z. B. Anhörung, Mitwirkung, Nachreichung) beginnt mit dem Tag, der auf die Bekanntgabe der Frist folgt, außer dem Betroffenen wird etwas anderes mitgeteilt. Bei postalischer Bekanntgabe gilt dafür die Bekanntgabefiktion (Aufgabe + 4 Tage), dann Folgetag.",
+    "normen": [
+     "§ 31 Abs. 2 VwVfG",
+     "§ 26 Abs. 2 SGB X",
+     "§ 108 Abs. 2 AO"
+    ],
+    "quelle_url": "https://www.gesetze-im-internet.de/vwvfg/__31.html",
+    "zitat": "Der Lauf einer Frist, die von einer Behörde gesetzt wird, beginnt mit dem Tag, der auf die",
+    "gilt_ab": "bestehend (Normtext am 14.10.2026 geprüft)",
+    "hinweis": "Kombination mit der Postfiktion ist eigene Anwendung; ein Gerichtsurteil dazu habe ich nicht gesucht.",
+    "strittig": false
+   },
+   {
+    "id": "G-01",
+    "thema": "Welcher Feiertag zählt: Gerichtsfristen, Sitz des Gerichts",
+    "regel": "Bei Fristen vor Gericht (VwGO, SGG, FGO, ZPO) verschiebt ein nicht bundeseinheitlicher Feiertag das Fristende nur, wenn der Tag am Ort gesetzlicher Feiertag ist, an dem das Rechtsmittel einzulegen ist, also am Sitz des Gerichts. Wohnort des Klägers und Kanzleisitz sind unerheblich.",
+    "normen": [
+     "§ 222 Abs. 2 ZPO",
+     "§ 57 Abs. 2 VwGO",
+     "§ 64 Abs. 3 SGG",
+     "BGH 10.01.2012 VI ZA 27/11"
+    ],
+    "quelle_url": "https://urteile-gesetze.de/rechtsprechung/vi-za-27-11",
+    "zitat": "an dem Ort, wo das Rechtsmittel einzulegen ist",
+    "gilt_ab": "2012-01-10",
+    "hinweis": "BGH nennt als Nachweise BAG, BSG (MDR 1995, 955), BayVGH (NJW 1997, 2130), OVG Münster (16.02.2010, 13 C 112/10). Wiedergabe über urteile-gesetze.de, nicht der BGH-Volltext. Bestätigt für das Strafrecht durch BGH 28.10.2025 3 StR 321/25 (nur über Suchzusammenfassung belegt).",
+    "strittig": false
+   },
+   {
+    "id": "G-02",
+    "thema": "Welcher Feiertag zählt: Einspruch oder Widerspruch bei der Behörde, Sitz der Behörde",
+    "regel": "Für Fristen, innerhalb derer eine Handlung bei einer Behörde vorzunehmen ist (Einspruch, Widerspruch, Steuererklärung), ist nach Verwaltungsauffassung das Feiertagsrecht am Sitz der Behörde maßgeblich. Eine gerichtliche Entscheidung dazu habe ich nicht gefunden.",
+    "normen": [
+     "§ 108 Abs. 3 AO",
+     "§ 31 Abs. 3 VwVfG",
+     "OFD Cottbus Vfg. 14.01.2004 S 0260-3-St 251"
+    ],
+    "quelle_url": "https://bravors.brandenburg.de/verwaltungsvorschriften/feiertagsrecht",
+    "zitat": "Feiertagsrecht am Behördensitz",
+    "gilt_ab": "2004-01-14",
+    "hinweis": "Verwaltungsanweisung der OFD Cottbus (auf der Landesseite datiert 24.06.2004). Zitat ist die Wiedergabe der Aussage, nicht wörtlich bestätigt. Übertragung auf Widerspruch bei Landes- und Bundesbehörden ist eine Folgerung.",
+    "strittig": true
+   },
+   {
+    "id": "G-03",
+    "thema": "Welcher Feiertag zählt: Bekanntgabefiktion in der AO, Ort des Empfängers",
+    "regel": "Für die Verschiebung des fiktiven Bekanntgabetags nach § 108 Abs. 3 AO ist nach Verwaltungsauffassung das Feiertagsrecht am Ort des Empfängers des Verwaltungsakts maßgeblich, weil dort die Bekanntgabe erfolgt und der Verwaltungsakt wirksam wird. Für den Beginn der Einspruchsfrist ist das von Amts wegen zu beachten.",
+    "normen": [
+     "§ 108 Abs. 3 AO",
+     "§ 122 Abs. 1 S. 1 AO",
+     "§ 124 Abs. 1 S. 1 AO",
+     "FinMin Hamburg Erlass 20.08.2004 51 - S 0260 - 004/97",
+     "OFD Cottbus Vfg. 14.01.2004"
+    ],
+    "quelle_url": "https://www.deubner-steuern.de/produkte/seniorenberatung/doc/finmin-hamburg---erlass-vom-20082004-51---s-0260---00497--890055",
+    "zitat": "das am Ort des Empfängers des Verwaltungsakts geltende Feiertagsrecht maßgebend",
+    "gilt_ab": "2004-08-20",
+    "hinweis": "Zwei Verwaltungsanweisungen von 2004; die EDV der Finanzämter stellt laut OFD vereinfachend auf den Behördensitz ab. Keine BFH-Entscheidung dazu gefunden. Für den Benchmark Fälle mit bundeseinheitlichen Feiertagen oder gleichem Bundesland von Behörde und Empfänger bauen.",
+    "strittig": true
+   }
+  ],
+  "offene_punkte": [
+   "BVerwG zur Wochenendfrage bei § 41 Abs. 2 VwVfG: keine Entscheidung gefunden (BVerwG 6 C 3.22 behandelt nur den Zugangsnachweis). Rechtslage nur über OVG/VGH-Entscheidungen, die ich aus der Aufzählung im Beschluss VG München M 10 S 21.4517 kenne, nicht im Volltext geprüft. Empfehlung: im Benchmark VwVfG-Fälle ohne Wochenende am Fiktionstag oder als strittig kennzeichnen.",
+   "Keine Gerichtsentscheidung gefunden, die die Vier-Tage-Fiktion (ab 2025) am Wochenende behandelt (weder BFH noch BSG noch BVerwG). AO-Verschiebung nur durch Gesetzesbegründung (Drs. 20/11817 S. 142) und BFH-Rechtsprechung zur Dreitagesfrist gestützt; SGB X nur durch BSG zur Dreitagesfrist.",
+   "AEAO: BMF-Schreiben vom 10.12.2024 (IV D 1 - S 0062/24/10003:001) und vom 13.08.2025 nur über Zusammenfassungen von Drittseiten gesehen. Offen, ob AEAO zu § 108 Nr. 2 inzwischen 'Viertage-Regelungen' nennt; der gelesene Text sagt noch 'Dreitage-Regelungen'. Amtlichen AEAO-Text auf bundesfinanzministerium.de gegenprüfen.",
+   "Übergangsrecht VwVfG, SGB X, VwZG: keine ausdrückliche Übergangsnorm gefunden (nur AO hat Art. 97 § 1 Abs. 15 EGAO). Das habe ich an Konsolidierungsseiten und der Synopse Drs. 20/11817 gesehen, nicht am BGBl.-PDF; das PDF war über WebFetch nicht lesbar. Anknüpfung an den Tag der Aufgabe zur Post ist Arbeitsannahme.",
+   "§ 122a AO: Die aktuelle Fassung auf gesetze-im-internet.de (Stand 14.10.2026) lautet 'am vierten Tag nach der Bereitstellung zum Abruf' und hat nur noch zwei Sätze; das passt zu Art. 97 § 28 Abs. 2 EGAO (neue Fassung für Verwaltungsakte nach dem 31.12.2025). Die für 2025 geltende Fassung (Benachrichtigung, vier Tage) habe ich nicht im Volltext verifiziert. Elektronischer Abruf nach AO daher aus Klasse 1 ausklammern.",
+   "§ 4 VwZG: Verhältnis von Rückschein/Übergabe-Einschreiben zur Fiktion ('im Übrigen') und ob die Fiktion bei früher belegtem Zugang durch den Rückschein verdrängt wird, ist aus dem Wortlaut nicht klar. Die Aussage 'Einwurf-Einschreiben ist kein Einschreiben im Sinne des VwZG' stammt nur aus Lehrmaterial. Einschreiben-Fälle im Benchmark vermeiden oder gesondert prüfen.",
+   "Landes-VwVfG: nur Bayern amtlich geprüft (Art. 41 BayVwVfG, vierter Tag seit 01.01.2025). Baden-Württemberg und Nordrhein-Westfalen nur über Drittseiten, übrige 13 Länder nicht geprüft. Fiktive Bescheide besser von Bundesbehörde (VwVfG), Sozialleistungsträger (SGB X) oder Finanzamt (AO) ausstellen lassen.",
+   "Quellenqualität: BSG-Urteil B 14 AS 12/09 R (Datum 05./06.05.2010 in Datenbanken uneinheitlich; BFH III B 85/13 nennt 06.05.2010), BGH VI ZA 27/11, LSG München L 2 U 140/13, FG Niedersachsen 9 K 203/20 und die OVG/VGH-Aufzählung nur über Datenbank- oder Wiedergabeseiten, nicht über amtliche Volltexte der Gerichte. BFH IX R 68/98 und VI R 18/22 sowie BVerwG 6 C 3.22 sind über gerichtsnahe Seiten bzw. Volltext-PDF gelesen. Amtliche Fundstellen vor Veröffentlichung ergänzen.",
+   "Gesetzestexte wurden über WebFetch abgerufen, das nur Zusammenfassungen und kurze Zitate liefert. Die Zitate in den Regeln sind kurze Ausschnitte; wörtlicher Vollabgleich mit gesetze-im-internet.de vor Übernahme in Code-Kommentare sinnvoll. Bei § 37 Abs. 2 SGB X wurde 'im Inland' nur aus der Zusammenfassung übernommen.",
+   "Feiertagsort: Für Widerspruch und Einspruch bei Behörden und für die AO-Bekanntgabefiktion gibt es nur Verwaltungsanweisungen von 2004, keine Rechtsprechung. Welche Landesfeiertage der Benchmark abbildet, muss entschieden werden (Vorschlag: nur bundeseinheitliche Feiertage plus Sitzland des Gerichts/der Behörde explizit im Fall angeben). Die Annahme, dass 24.12. und 31.12. keine gesetzlichen Feiertage sind, habe ich nicht an einer Quelle belegt.",
+   "Nicht geprüft, aber für spätere Klassen relevant: Wiedereinsetzung (§ 60 VwGO, § 67 SGG, § 110 AO, § 56 FGO), Fristwahrung durch Eingang bei unzuständiger Stelle, § 355 Abs. 2 AO, Zustellung an Bevollmächtigte (§ 41 Abs. 1 VwVfG, § 122 Abs. 1 AO), öffentliche Bekanntgabe (§ 41 Abs. 4 VwVfG, zwei Wochen), Bekanntgabe an Ehegatten (§ 122 Abs. 7 AO).",
+   "Hinweis zur Auftragsformulierung: 'Fristbeginn am Tag der Zustellung' ist ungenau; der Zustellungstag zählt nicht mit, die Frist beginnt am Folgetag (§ 187 Abs. 1 BGB). Im Code den Fristbeginn als Zustellung + 1 Tag modellieren."
+  ]
+ },
+ {
+  "key": "feiertage",
+  "regeln": [],
+  "offene_punkte": [
+   "Feiertags-Recherche (16 Länder, 2024 bis 2028) steht noch aus; bis dahin gelten die Feiertage im Code (pruefki/fristen)."
+  ]
+ }
+]

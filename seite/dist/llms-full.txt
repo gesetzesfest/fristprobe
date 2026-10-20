@@ -1,0 +1,28 @@
+# Gesetzesfest: Fristprobe
+
+> Unabhängiger deutscher Benchmark: Rechnen KI-Modelle deutsche Fristen richtig und belegen sie jede Antwort mit einer Norm? Prüfreihe 1 von Gesetzesfest. Stand 20.10.2026.
+
+Kernergebnis: Qwen3 8B mit Rechner löst 549 von 550 frischen Fristfällen (95-%-Intervall 99,0 % bis 100,0 %), 0 erfundene Normen.
+
+## Rangliste (geheimer Testsatz, 50 Aufgaben, je drei Läufe)
+- Qwen3 8B: 49/50 bestanden, sicher falsch 0
+- Qwen3.5 9B: 47/50 bestanden, sicher falsch 0
+- Gemma 3 4B: 44/50 bestanden, sicher falsch 10
+- Qwen3 4B: 42/50 bestanden, sicher falsch 4
+- Qwen3 8B (ältere Kette v2): 38/50 bestanden, sicher falsch 1
+- Gemma 4 E4B: 37/50 bestanden, sicher falsch 0
+
+## Seiten
+- [Rangliste](https://gesetzesfest.de/rangliste.html): Qwen3 8B mit Rechner führt: 49/50 auf dem geheimen Testsatz, 549/550 auf frischen Fällen. Alle Modelle mit Intervallen.
+- [Prüfreihe Fristen](https://gesetzesfest.de/pruefreihe-fristen.html): Was Prüfreihe 1 testet: neun Aufgabenarten von Widerspruch bis Kündigung, mit Beispielaufgabe und Rechenweg.
+- [Methode](https://gesetzesfest.de/methode.html): Musterlösung aus einem Programm nach §§ 187–193 BGB, erfundene Fälle, geheimer Testteil, Wilson-Intervalle und McNemar-Test.
+- [Daten](https://gesetzesfest.de/daten.html): Rangliste von Fristprobe zum Herunterladen als CSV und JSON, mit Feldbeschreibung und Version.
+- [FAQ](https://gesetzesfest.de/faq.html): Antworten zu Fristprobe: was gemessen wird, welches Modell vorne liegt, wer die Lösung bestimmt, Unabhängigkeit und Prüfläufe.
+- [Prüfen lassen](https://gesetzesfest.de/pruefen-lassen.html): Unabhängiger Prüflauf für KI-Modelle und Legal-Tech-Produkte: geheimer Testteil, Bericht mit Intervallen, Datensätze mit Rechenweg.
+- [Über uns](https://gesetzesfest.de/ueber.html): Fristprobe ist ein unabhängiges Projekt von Gesetzesfest. Wer zahlt, was wir nicht können, Versionen.
+
+## Methode
+- Musterlösung aus einem Programm (§§ 187–193 BGB, Feiertage je Bundesland, Bekanntgabefiktion), nicht von einer KI.
+- Nur erfundene Fälle; geheimer Testteil; frische Sätze je einmal gemessen.
+- Wilson-Intervall an jeder Quote, McNemar-Test für Vergleiche.
+- Unabhängig: keine Werbung, keine bezahlten Platzierungen.

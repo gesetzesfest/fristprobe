@@ -1,0 +1,152 @@
+{
+ "prompt_version": "fristen-prompt-v1",
+ "laeufe": 3,
+ "erfindungspruefung": "Positivliste + Wissensbasis (6139 Gesetze, 109457 Normen, gebaut 2026-10-15T09:32:16+00:00)",
+ "modelle": {
+  "qwen3:8b+rechner-v3": {
+   "bereiche": {
+    "gesamt": {
+     "aufgaben": 50,
+     "antworten": 43,
+     "exakt_alle_laeufe": 0,
+     "exakt_alle_laeufe_quote": 0.0,
+     "exakt_einzeln_quote": 0.814,
+     "teilpunkte": 0.814,
+     "belegquote": 0.79,
+     "erfindungsquote": 0.0,
+     "normenpunkte": 1.488,
+     "brier": 0.0877,
+     "sicher_und_falsch": 0,
+     "unlesbar_oder_fehler": 6,
+     "tokens_pro_s_median": 23.7
+    },
+    "oeffentlich": {
+     "aufgaben": 35,
+     "antworten": 30,
+     "exakt_alle_laeufe": 0,
+     "exakt_alle_laeufe_quote": 0.0,
+     "exakt_einzeln_quote": 0.767,
+     "teilpunkte": 0.767,
+     "belegquote": 0.759,
+     "erfindungsquote": 0.0,
+     "normenpunkte": 1.367,
+     "brier": 0.0997,
+     "sicher_und_falsch": 0,
+     "unlesbar_oder_fehler": 6,
+     "tokens_pro_s_median": 23.6
+    },
+    "privat": {
+     "aufgaben": 15,
+     "antworten": 13,
+     "exakt_alle_laeufe": 0,
+     "exakt_alle_laeufe_quote": 0.0,
+     "exakt_einzeln_quote": 0.923,
+     "teilpunkte": 0.923,
+     "belegquote": 0.852,
+     "erfindungsquote": 0.0,
+     "normenpunkte": 1.769,
+     "brier": 0.06,
+     "sicher_und_falsch": 0,
+     "unlesbar_oder_fehler": 0,
+     "tokens_pro_s_median": 23.7
+    },
+    "berechnen": {
+     "aufgaben": 30,
+     "antworten": 26,
+     "exakt_alle_laeufe": 0,
+     "exakt_alle_laeufe_quote": 0.0,
+     "exakt_einzeln_quote": 0.769,
+     "teilpunkte": 0.769,
+     "belegquote": 0.792,
+     "erfindungsquote": 0.0,
+     "normenpunkte": 1.615,
+     "brier": 0.0854,
+     "sicher_und_falsch": 0,
+     "unlesbar_oder_fehler": 4,
+     "tokens_pro_s_median": 23.7
+    },
+    "pruefen": {
+     "aufgaben": 20,
+     "antworten": 17,
+     "exakt_alle_laeufe": 0,
+     "exakt_alle_laeufe_quote": 0.0,
+     "exakt_einzeln_quote": 0.882,
+     "teilpunkte": 0.882,
+     "belegquote": 0.786,
+     "erfindungsquote": 0.0,
+     "normenpunkte": 1.294,
+     "brier": 0.0912,
+     "sicher_und_falsch": 0,
+     "unlesbar_oder_fehler": 2,
+     "tokens_pro_s_median": 23.4
+    }
+   },
+   "bestanden": [],
+   "pro_aufgabe": {
+    "F001": "1/1",
+    "F002": "1/1",
+    "F003": "1/1",
+    "F004": "1/1",
+    "F005": "1/1",
+    "F006": "1/1",
+    "F007": "1/1",
+    "F008": "1/1",
+    "F009": "1/1",
+    "F010": "1/1",
+    "F011": "1/1",
+    "F012": "1/1",
+    "F013": "1/1",
+    "F014": "1/1",
+    "F015": "1/1",
+    "F016": "0/1",
+    "F017": "1/1",
+    "F018": "1/1",
+    "F019": "1/1",
+    "F020": "1/1",
+    "F021": "1/1",
+    "F022": "1/1",
+    "F023": "1/1",
+    "F024": "1/1",
+    "F025": "1/1",
+    "F026": "1/1",
+    "F027": "1/1",
+    "F028": "1/1",
+    "F029": "1/1",
+    "F030": "1/1",
+    "F031": "1/1",
+    "F032": "1/1",
+    "F033": "1/1",
+    "F034": "1/1",
+    "F035": "1/1",
+    "F036": "0/1",
+    "F037": "1/1",
+    "F038": "0/1",
+    "F039": "0/1",
+    "F040": "0/1",
+    "F041": "0/1",
+    "F042": "0/1",
+    "F043": "0/1",
+    "F044": "0/0",
+    "F045": "0/0",
+    "F046": "0/0",
+    "F047": "0/0",
+    "F048": "0/0",
+    "F049": "0/0",
+    "F050": "0/0"
+   }
+  }
+ },
+ "vergleich": {
+  "bester": "qwen3:8b+rechner-v3",
+  "modelle": {
+   "qwen3:8b+rechner-v3": {
+    "bestanden": 0,
+    "aufgaben": 50,
+    "wilson95": [
+     0.0,
+     0.071
+    ]
+   }
+  }
+ }
+}
