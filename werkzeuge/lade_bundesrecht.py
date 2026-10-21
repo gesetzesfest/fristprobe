@@ -69,7 +69,7 @@ def main():
     (ziel / "zip").mkdir(parents=True, exist_ok=True)
     (ziel / "xml").mkdir(parents=True, exist_ok=True)
     stand_pfad = ziel / "stand.json"
-    stand = json.loads(stand_pfad.read_text("utf-8")) if stand_pfad.exists() else {}
+    stand = json.loads(stand_pfad.read_text()) if stand_pfad.exists() else {}
 
     status, toc, _ = hole(TOC_URL)
     (ziel / "gii-toc.xml").write_bytes(toc)
@@ -105,11 +105,11 @@ def main():
             fehler += 1
             stand.setdefault(kuerzel, {})["fehler"] = f"{type(e).__name__}: {e}"
         if i % 250 == 0:
-            stand_pfad.write_text(json.dumps(stand, ensure_ascii=False, indent=0), encoding="utf-8")
+            stand_pfad.write_text(json.dumps(stand, ensure_ascii=False, indent=0))
             print(f"{i}/{len(items)} neu {neu} gleich {gleich} fehler {fehler}", flush=True)
         time.sleep(args.pause)
 
-    stand_pfad.write_text(json.dumps(stand, ensure_ascii=False, indent=0), encoding="utf-8")
+    stand_pfad.write_text(json.dumps(stand, ensure_ascii=False, indent=0))
     groesse = sum(v.get("bytes", 0) for v in stand.values())
     print(f"FERTIG {len(items)} Normen: neu {neu}, unverändert {gleich}, Fehler {fehler}, ZIP gesamt {groesse/1e6:.1f} MB")
     return 0 if fehler == 0 else 1
