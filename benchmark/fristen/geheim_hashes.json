@@ -5,5 +5,19 @@
   "datum": "2026-10-20",
   "hash": "5a765495b4b331d9e62d4c1b4fb22043d3781c41f0f05ac9deb4149d633b208b",
   "vorlagen": 2
+ },
+ "frisch-b": {
+  "aufgaben": 50,
+  "aufgaben_hash": "6f7efef613db69080cb53445b951c351a4bf4d21476906a67e267bc45941eb40",
+  "datum": "2026-10-21",
+  "hash": "60fc1ff1dbb719cd3f8e5f07f29bdd615486e4c85354e185347c7a3abe8b7c89",
+  "vorlagen": 2
+ },
+ "frisch-c": {
+  "aufgaben": 50,
+  "aufgaben_hash": "94e192a6c5bf4668af47d95097abd215e47f0b06b54d92bb169e69bc0ca36f08",
+  "datum": "2026-10-21",
+  "hash": "a6218acf01680037cba1125610dda0a39638cc4fdb516c3d5adaa856f0267cce",
+  "vorlagen": 2
  }
 }
